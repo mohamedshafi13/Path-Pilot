@@ -1,0 +1,3282 @@
+{
+  "users": {
+    "user-demo-alex-chen": {
+      "id": "user-demo-alex-chen",
+      "name": "Alex Chen",
+      "email": "student.demo@university.edu",
+      "passwordHash": "$2b$10$vy1GDUgSJdBIHNljmzKQcexP4ivXS1FAZ5GRhAxl7sI16opKJduTm",
+      "department": "Computer Science & Engineering",
+      "year": "3rd Year",
+      "interest": "Distributed Systems & Cloud Infrastructure",
+      "targetRole": "Cloud & Infrastructure Engineer",
+      "joinedDate": "October 2026",
+      "createdAt": "2026-10-05T09:12:55.670Z",
+      "updatedAt": "2026-10-05T09:12:55.670Z"
+    },
+    "student-1791191604979-2und7": {
+      "id": "student-1791191604979-2und7",
+      "name": "Jordan Lee",
+      "email": "jordan.lee@test.edu",
+      "passwordHash": "$2b$10$10rOkqskw3k5gvLbMiuJq.RWnHH4F9p8n84Njyw/LelYmy5hDYU5y",
+      "department": "Computer Science and Engineering",
+      "year": "3rd Year",
+      "interest": "",
+      "targetRole": "Software Engineer",
+      "joinedDate": "October 2026",
+      "createdAt": "2026-10-05T09:13:25.097Z",
+      "updatedAt": "2026-10-05T09:13:25.097Z"
+    },
+    "student-1791191613340-wg74v": {
+      "id": "student-1791191613340-wg74v",
+      "name": "Jordan Lee",
+      "email": "test.student.1791191613231@university.edu",
+      "passwordHash": "$2b$10$xucXJ0DWI8.TaatDQGEUh.ycu9RnpdV4XBxHzdlMWg24RT66eGity",
+      "department": "Computer Science and Engineering",
+      "year": "3rd Year",
+      "interest": "",
+      "targetRole": "Software Engineer",
+      "joinedDate": "October 2026",
+      "createdAt": "2026-10-05T09:13:33.459Z",
+      "updatedAt": "2026-10-05T09:13:33.459Z"
+    },
+    "student-1791191632658-5a6p6": {
+      "id": "student-1791191632658-5a6p6",
+      "name": "Jordan Lee",
+      "email": "test.student.1791191632548@university.edu",
+      "passwordHash": "$2b$10$rkTe.TRwu6fPDDkzWaskbOWcldiG.ryBLrZUiC/ZH98i9uGCHoLDW",
+      "department": "Computer Science and Engineering",
+      "year": "3rd Year",
+      "interest": "Distributed Systems & Cloud Infrastructure",
+      "targetRole": "Cloud & Infrastructure Engineer",
+      "joinedDate": "October 2026",
+      "createdAt": "2026-10-05T09:13:52.767Z",
+      "updatedAt": "2026-10-05T09:13:52.785Z"
+    },
+    "student-1791192192687-diwz7": {
+      "id": "student-1791192192687-diwz7",
+      "name": "Alex Deploy",
+      "email": "deploy.1791192192550@university.edu",
+      "passwordHash": "$2b$10$WbbBqrk43yXEUgQw8gh3ouLsJWKgpW6Alw8AmwY0Aw1DFjm73vAfO",
+      "department": "Computer Science and Engineering",
+      "year": "3rd Year",
+      "interest": "",
+      "targetRole": "Software Engineer",
+      "joinedDate": "October 2026",
+      "createdAt": "2026-10-05T09:23:12.818Z",
+      "updatedAt": "2026-10-05T09:23:12.818Z"
+    }
+  },
+  "studentsData": {
+    "user-demo-alex-chen": {
+      "userId": "user-demo-alex-chen",
+      "skills": [
+        {
+          "name": "System Design & Scalability",
+          "level": 82,
+          "category": "System Design",
+          "growth": 14
+        },
+        {
+          "name": "Distributed Consensus & Raft",
+          "level": 86,
+          "category": "Algorithms",
+          "growth": 22
+        },
+        {
+          "name": "Docker & Containerization",
+          "level": 78,
+          "category": "Domain Tooling",
+          "growth": 10
+        },
+        {
+          "name": "API Design & gRPC / REST",
+          "level": 85,
+          "category": "Architecture",
+          "growth": 12
+        },
+        {
+          "name": "Automated Testing & CI/CD",
+          "level": 74,
+          "category": "Security & Testing",
+          "growth": 8
+        },
+        {
+          "name": "Caching & Redis Data Stores",
+          "level": 80,
+          "category": "System Design",
+          "growth": 16
+        }
+      ],
+      "detailedSkills": [
+        {
+          "id": "skill-tech-1",
+          "name": "Distributed Consensus & Raft",
+          "type": "Technical",
+          "category": "DSA",
+          "level": "Advanced",
+          "status": "Completed",
+          "progress": 92,
+          "hoursSpent": 45,
+          "lastPracticed": "2026-10-03",
+          "history": [
+            {
+              "date": "2026-08-15",
+              "progress": 50,
+              "note": "Implemented leader election"
+            },
+            {
+              "date": "2026-09-12",
+              "progress": 80,
+              "note": "Added replicated WAL logging"
+            },
+            {
+              "date": "2026-10-03",
+              "progress": 92,
+              "note": "Chaos partition recovery verified"
+            }
+          ]
+        },
+        {
+          "id": "skill-tech-2",
+          "name": "Docker & Container Architecture",
+          "type": "Technical",
+          "category": "Cloud",
+          "level": "Intermediate",
+          "status": "Learning",
+          "progress": 80,
+          "hoursSpent": 30,
+          "lastPracticed": "2026-10-04",
+          "history": [
+            {
+              "date": "2026-09-01",
+              "progress": 45,
+              "note": "Multi-stage Dockerfiles"
+            },
+            {
+              "date": "2026-10-04",
+              "progress": 80,
+              "note": "Compose multi-node cluster configuration"
+            }
+          ]
+        },
+        {
+          "id": "skill-tech-3",
+          "name": "Go & Systems Concurrency (Goroutines / Mutex)",
+          "type": "Technical",
+          "category": "Programming",
+          "level": "Intermediate",
+          "status": "Learning",
+          "progress": 78,
+          "hoursSpent": 28,
+          "lastPracticed": "2026-10-02",
+          "history": [
+            {
+              "date": "2026-08-10",
+              "progress": 40,
+              "note": "Channel semantics & synchronization"
+            },
+            {
+              "date": "2026-10-02",
+              "progress": 78,
+              "note": "Thread-safe circular buffers"
+            }
+          ]
+        },
+        {
+          "id": "skill-tech-4",
+          "name": "PostgreSQL & Index Optimization",
+          "type": "Technical",
+          "category": "Database",
+          "level": "Intermediate",
+          "status": "Completed",
+          "progress": 85,
+          "hoursSpent": 32,
+          "lastPracticed": "2026-09-28",
+          "history": [
+            {
+              "date": "2026-08-01",
+              "progress": 60,
+              "note": "Relational schema modeling"
+            },
+            {
+              "date": "2026-09-28",
+              "progress": 85,
+              "note": "B-tree index and EXPLAIN ANALYZE tuning"
+            }
+          ]
+        },
+        {
+          "id": "skill-tech-5",
+          "name": "Redis Distributed Caching & Rate Limiting",
+          "type": "Technical",
+          "category": "Database",
+          "level": "Intermediate",
+          "status": "Completed",
+          "progress": 84,
+          "hoursSpent": 26,
+          "lastPracticed": "2026-09-30"
+        },
+        {
+          "id": "skill-tech-6",
+          "name": "Kubernetes Pod & Cluster Orchestration",
+          "type": "Technical",
+          "category": "Cloud",
+          "level": "Beginner",
+          "status": "Planned",
+          "progress": 35,
+          "hoursSpent": 12,
+          "lastPracticed": "2026-09-18"
+        },
+        {
+          "id": "skill-tech-7",
+          "name": "OpenTelemetry & Prometheus Observability",
+          "type": "Technical",
+          "category": "Cloud",
+          "level": "Beginner",
+          "status": "Planned",
+          "progress": 25,
+          "hoursSpent": 8,
+          "lastPracticed": "2026-09-10"
+        },
+        {
+          "id": "skill-tech-8",
+          "name": "TLS Handshakes & Zero-Trust Network Security",
+          "type": "Technical",
+          "category": "Cybersecurity",
+          "level": "Beginner",
+          "status": "Planned",
+          "progress": 30,
+          "hoursSpent": 10,
+          "lastPracticed": "2026-09-05"
+        },
+        {
+          "id": "skill-soft-1",
+          "name": "Technical Architecture Writing (RFCs & ADRs)",
+          "type": "Soft",
+          "category": "Communication",
+          "level": "Intermediate",
+          "status": "Learning",
+          "progress": 75,
+          "hoursSpent": 20,
+          "lastPracticed": "2026-10-01",
+          "history": [
+            {
+              "date": "2026-09-10",
+              "progress": 50,
+              "note": "Drafted Raft consensus specification"
+            },
+            {
+              "date": "2026-10-01",
+              "progress": 75,
+              "note": "Structured trade-off matrices for key-value store"
+            }
+          ]
+        },
+        {
+          "id": "skill-soft-2",
+          "name": "Complex Problem Solving & Root Cause Analysis",
+          "type": "Soft",
+          "category": "Problem Solving",
+          "level": "Advanced",
+          "status": "Completed",
+          "progress": 88,
+          "hoursSpent": 35,
+          "lastPracticed": "2026-10-03"
+        },
+        {
+          "id": "skill-soft-3",
+          "name": "Code Review Rigor & Constructive Peer Feedback",
+          "type": "Soft",
+          "category": "Teamwork",
+          "level": "Intermediate",
+          "status": "Completed",
+          "progress": 82,
+          "hoursSpent": 22,
+          "lastPracticed": "2026-09-25"
+        },
+        {
+          "id": "skill-soft-4",
+          "name": "Sprint Planning & Engineering Time Management",
+          "type": "Soft",
+          "category": "Time Management",
+          "level": "Intermediate",
+          "status": "Learning",
+          "progress": 74,
+          "hoursSpent": 18,
+          "lastPracticed": "2026-09-29"
+        },
+        {
+          "id": "skill-soft-5",
+          "name": "Technical Whiteboard Defense & Leadership",
+          "type": "Soft",
+          "category": "Leadership",
+          "level": "Beginner",
+          "status": "Planned",
+          "progress": 40,
+          "hoursSpent": 10,
+          "lastPracticed": "2026-09-12"
+        }
+      ],
+      "historicalScores": [
+        {
+          "date": "Apr 2026",
+          "projectTitle": "Single-Node In-Memory Cache",
+          "score": 72,
+          "technicalComplexity": 17,
+          "industryRelevance": 18,
+          "codeArchitectureQuality": 19,
+          "innovationAndImpact": 18
+        },
+        {
+          "date": "Jun 2026",
+          "projectTitle": "HTTP Reverse Proxy & Logger",
+          "score": 78,
+          "technicalComplexity": 19,
+          "industryRelevance": 20,
+          "codeArchitectureQuality": 20,
+          "innovationAndImpact": 19
+        },
+        {
+          "date": "Aug 2026",
+          "projectTitle": "Sliding-Window Rate Limiter",
+          "score": 82,
+          "technicalComplexity": 19,
+          "industryRelevance": 22,
+          "codeArchitectureQuality": 21,
+          "innovationAndImpact": 20
+        },
+        {
+          "date": "Sep 2026",
+          "projectTitle": "Distributed Raft Consensus Engine",
+          "score": 88,
+          "technicalComplexity": 23,
+          "industryRelevance": 23,
+          "codeArchitectureQuality": 21,
+          "innovationAndImpact": 21
+        }
+      ],
+      "submissions": [
+        {
+          "id": "sub-101",
+          "title": "Distributed Log Replicator with Raft Consensus Engine",
+          "domain": "Distributed Systems & Cloud Infrastructure",
+          "department": "Computer Science & Engineering",
+          "description": "An implementation of the Raft consensus algorithm enabling distributed log replication across 3 to 5 nodes with automated leader election, heartbeats, and client RPC interface.",
+          "techStack": [
+            "TypeScript",
+            "gRPC",
+            "Docker",
+            "Jest"
+          ],
+          "githubUrl": "https://github.com/alexrivera/raft-replicated-log",
+          "architectureDetails": "Three-node cluster communicating via gRPC streaming. Nodes maintain randomized election timers, persistent write-ahead logs on disk, and synchronized commit index pointers.",
+          "challengesFaced": "Preventing split-vote deadlocks during network partitions and safely handling term discrepancies when a partitioned leader rejoins.",
+          "submittedAt": "September 18, 2026",
+          "evaluation": {
+            "overallScore": 88,
+            "scoreBreakdown": {
+              "technicalComplexity": 23,
+              "industryRelevance": 23,
+              "codeArchitectureQuality": 21,
+              "innovationAndImpact": 21
+            },
+            "evaluationSummary": "Exceptional project demonstration of distributed consensus principles. The protocol state machine exhibits clean modular boundaries and rigorous test harness execution under simulated partitions.",
+            "strengths": [
+              "High fidelity adherence to the canonical Raft paper specification.",
+              "Well-isolated RPC communication layer separated from the consensus core.",
+              "Comprehensive chaos tests simulating delayed and dropped RPC packets."
+            ],
+            "areasForImprovement": [
+              "Implement log compaction via snapshotting to prevent unbounded memory growth over prolonged runtimes.",
+              "Expose Prometheus scrapers for election timeout frequency and state transition events.",
+              "Add dynamic cluster membership changes (adding and removing nodes on the fly)."
+            ],
+            "actionableRoadmap": [
+              {
+                "step": 1,
+                "task": "Implement Memory Snapshotting",
+                "detail": "Write a snapshot state chunk mechanism to truncate the WAL after reaching a configurable byte threshold."
+              },
+              {
+                "step": 2,
+                "task": "Instrument P99 RPC Latency",
+                "detail": "Add OpenTelemetry spans to measure commit latency under 500 concurrent client requests."
+              },
+              {
+                "step": 3,
+                "task": "Publish Architectural Writeup",
+                "detail": "Document the partition recovery timeline in the README with annotated sequence diagrams."
+              }
+            ],
+            "recommendedSkillsToAcquire": [
+              "Log Compaction & LSM Trees",
+              "OpenTelemetry Tracing",
+              "eBPF Network Observability",
+              "Chaos Engineering (Chaos Mesh)"
+            ],
+            "suggestedNextProject": {
+              "title": "Distributed Object Store with Consistent Hashing",
+              "concept": "Design an Amazon S3-inspired chunk storage system utilizing virtual ring nodes for replication."
+            }
+          }
+        },
+        {
+          "id": "sub-102",
+          "title": "Sliding-Window API Rate Limiter & Token Gateway",
+          "domain": "Distributed Systems & Cloud Infrastructure",
+          "department": "Computer Science & Engineering",
+          "description": "A low-latency reverse proxy and rate limiting gateway that monitors IP and user token allowances using Redis sorted sets.",
+          "techStack": [
+            "Node.js",
+            "Express",
+            "Redis",
+            "Docker"
+          ],
+          "githubUrl": "https://github.com/alexrivera/redis-sliding-limiter",
+          "architectureDetails": "Express middleware wrapping Redis MULTI/EXEC transactions to evaluate timestamps within a moving 60-second window.",
+          "challengesFaced": "Mitigating clock drift between distributed proxy instances and ensuring minimal sub-millisecond Redis roundtrip overhead.",
+          "submittedAt": "August 12, 2026",
+          "evaluation": {
+            "overallScore": 82,
+            "scoreBreakdown": {
+              "technicalComplexity": 19,
+              "industryRelevance": 22,
+              "codeArchitectureQuality": 21,
+              "innovationAndImpact": 20
+            },
+            "evaluationSummary": "Solid utility showing practical backend engineering competence. The rate limiter handles burst traffic cleanly and integrates smoothly into standard Express pipelines.",
+            "strengths": [
+              "Atomic execution with Redis pipelines preventing race conditions.",
+              "Clean, drop-in middleware API designed for minimal developer friction.",
+              "Good error boundary handling when the Redis cache becomes temporarily unreachable."
+            ],
+            "areasForImprovement": [
+              "Transition to Lua scripting inside Redis to eliminate multi-roundtrip network latencies.",
+              "Introduce tiered rate limits based on JWT authentication role claims."
+            ],
+            "actionableRoadmap": [
+              {
+                "step": 1,
+                "task": "Benchmark with Autocannon",
+                "detail": "Generate load graphs comparing standard sorted sets against Lua script execution."
+              },
+              {
+                "step": 2,
+                "task": "Role-Based Quotas",
+                "detail": "Add token inspection logic to allow differentiated tiers for guest vs authenticated users."
+              }
+            ],
+            "recommendedSkillsToAcquire": [
+              "Redis Lua Scripting",
+              "Load Testing Tools (k6 / Autocannon)",
+              "Envoy Proxy Filter Configuration"
+            ],
+            "suggestedNextProject": {
+              "title": "Edge Caching Layer with LRU Eviction",
+              "concept": "Build an in-memory caching proxy that offloads repeated database reads with TTL invalidation."
+            }
+          }
+        }
+      ],
+      "roadmapMilestones": [
+        {
+          "id": "mile-1",
+          "phase": "Phase 1",
+          "title": "Foundations & Low-Level Computing",
+          "timeframe": "Months 1 - 3",
+          "description": "Master systems programming primitives, memory allocation, network sockets, and concurrency fundamentals.",
+          "status": "completed",
+          "skills": [
+            "C/C++ or Go",
+            "TCP/IP Sockets",
+            "Multi-threading",
+            "Memory Management"
+          ],
+          "tasks": [
+            {
+              "id": "t1",
+              "label": "Implement basic TCP echo server using raw sockets",
+              "done": true
+            },
+            {
+              "id": "t2",
+              "label": "Build thread-safe circular buffer with mutex locks",
+              "done": true
+            },
+            {
+              "id": "t3",
+              "label": "Understand POSIX signal handling and process forks",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "mile-2",
+          "phase": "Phase 2",
+          "title": "Core Architecture & API Design",
+          "timeframe": "Months 4 - 6",
+          "description": "Design modular client-server architectures, asynchronous task execution, and robust persistence schemas.",
+          "status": "completed",
+          "skills": [
+            "TypeScript / Node.js",
+            "PostgreSQL",
+            "gRPC / Protocol Buffers",
+            "REST APIs"
+          ],
+          "tasks": [
+            {
+              "id": "t4",
+              "label": "Build production REST API with relational schema migrations",
+              "done": true
+            },
+            {
+              "id": "t5",
+              "label": "Implement RPC transport using Protocol Buffers",
+              "done": true
+            },
+            {
+              "id": "t6",
+              "label": "Add automated integration tests with mock database containers",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "mile-3",
+          "phase": "Phase 3",
+          "title": "Distributed Systems & Resilience Engineering",
+          "timeframe": "Months 7 - 9",
+          "description": "Tackle consistency, consensus protocols, cache eviction strategies, and fault injection.",
+          "status": "in-progress",
+          "skills": [
+            "Raft Consensus",
+            "Redis",
+            "Docker Compose",
+            "Chaos Testing"
+          ],
+          "tasks": [
+            {
+              "id": "t7",
+              "label": "Build Raft consensus leader election and log replication",
+              "done": true
+            },
+            {
+              "id": "t8",
+              "label": "Implement distributed rate limiter with Redis sliding window",
+              "done": true
+            },
+            {
+              "id": "t9",
+              "label": "Inject network partition faults and verify quorum stability",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": "mile-4",
+          "phase": "Phase 4",
+          "title": "High-Scale Infrastructure & Observability",
+          "timeframe": "Months 10 - 12",
+          "description": "Deploy services on container clusters, instrument distributed tracing, and benchmark p99 latencies under load.",
+          "status": "upcoming",
+          "skills": [
+            "Kubernetes",
+            "Prometheus & Grafana",
+            "OpenTelemetry",
+            "Load Testing"
+          ],
+          "tasks": [
+            {
+              "id": "t10",
+              "label": "Deploy microservice cluster with Kubernetes manifests",
+              "done": false
+            },
+            {
+              "id": "t11",
+              "label": "Set up Grafana dashboard scraping custom Prometheus metrics",
+              "done": false
+            },
+            {
+              "id": "t12",
+              "label": "Conduct 10,000 req/sec stress test with k6 and optimize bottlenecks",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": "mile-5",
+          "phase": "Phase 5",
+          "title": "Portfolio Capstone & Industry Placement",
+          "timeframe": "Months 13 - 15",
+          "description": "Publish open-source benchmark case studies, refine system design interview problem sets, and review mock technical rounds.",
+          "status": "upcoming",
+          "skills": [
+            "System Design Interviews",
+            "Technical Writing",
+            "Open Source Portfolio",
+            "Mock Defense"
+          ],
+          "tasks": [
+            {
+              "id": "t13",
+              "label": "Publish comprehensive technical case study on engineering blog",
+              "done": false
+            },
+            {
+              "id": "t14",
+              "label": "Complete 30 top-tier system design mock interview scenarios",
+              "done": false
+            },
+            {
+              "id": "t15",
+              "label": "Submit capstone artifact to university faculty & industry reviewers",
+              "done": false
+            }
+          ]
+        }
+      ],
+      "learningRoadmap": [
+        {
+          "id": "l-mile-1",
+          "title": "Foundations of Systems Programming & Memory Models",
+          "description": "Master low-level OS primitives, POSIX sockets, thread concurrency, and virtual memory allocation.",
+          "difficulty": "Beginner",
+          "estimatedTime": "4 Weeks (25 hrs)",
+          "status": "Completed",
+          "progress": 100,
+          "topics": [
+            {
+              "id": "t-1-1",
+              "title": "Pointers, manual heap allocation, and cache locality",
+              "completed": true,
+              "estimatedHours": 6
+            },
+            {
+              "id": "t-1-2",
+              "title": "Multithreading, race conditions, and mutex synchronization",
+              "completed": true,
+              "estimatedHours": 7
+            },
+            {
+              "id": "t-1-3",
+              "title": "Non-blocking I/O and event loop architectures",
+              "completed": true,
+              "estimatedHours": 6
+            },
+            {
+              "id": "t-1-4",
+              "title": "Socket programming with TCP three-way handshake",
+              "completed": true,
+              "estimatedHours": 6
+            }
+          ],
+          "resources": [
+            {
+              "title": "Computer Systems: A Programmer’s Perspective (CS:APP)",
+              "type": "Course",
+              "platform": "CMU OpenCourseWare",
+              "url": "https://csapp.cs.cmu.edu",
+              "isFree": true
+            },
+            {
+              "title": "Beej’s Guide to Network Programming",
+              "type": "Documentation",
+              "platform": "Beej Guides",
+              "url": "https://beej.us/guide/bgnet/",
+              "isFree": true
+            },
+            {
+              "title": "OS & Concurrency Lab Exercises",
+              "type": "Practice Platform",
+              "platform": "Exercism",
+              "url": "https://exercism.org",
+              "isFree": true
+            },
+            {
+              "title": "Operating Systems Virtualization & Concurrency Lectures",
+              "type": "YouTube",
+              "platform": "YouTube",
+              "url": "https://youtube.com",
+              "isFree": true
+            }
+          ]
+        },
+        {
+          "id": "l-mile-2",
+          "title": "Resilient API Protocols & Data Storage Engines",
+          "description": "Design robust client-server contracts, binary serializations, relational transactions, and indexing.",
+          "difficulty": "Intermediate",
+          "estimatedTime": "5 Weeks (32 hrs)",
+          "status": "Completed",
+          "progress": 100,
+          "topics": [
+            {
+              "id": "t-2-1",
+              "title": "Protocol Buffers & gRPC streaming RPC mechanisms",
+              "completed": true,
+              "estimatedHours": 8
+            },
+            {
+              "id": "t-2-2",
+              "title": "PostgreSQL ACID transactions and B-Tree indexing profiling",
+              "completed": true,
+              "estimatedHours": 8
+            },
+            {
+              "id": "t-2-3",
+              "title": "Distributed in-memory caching with Redis data structures",
+              "completed": true,
+              "estimatedHours": 8
+            },
+            {
+              "id": "t-2-4",
+              "title": "Integration testing with Testcontainers and mock fixtures",
+              "completed": true,
+              "estimatedHours": 8
+            }
+          ],
+          "resources": [
+            {
+              "title": "Designing Data-Intensive Applications",
+              "type": "Course",
+              "platform": "O’Reilly Literature",
+              "url": "https://dataintensive.net",
+              "isFree": false
+            },
+            {
+              "title": "Official gRPC TypeScript & Go Guides",
+              "type": "Documentation",
+              "platform": "gRPC.io",
+              "url": "https://grpc.io",
+              "isFree": true
+            },
+            {
+              "title": "SQL & Database Indexing Tuning Challenges",
+              "type": "Practice Platform",
+              "platform": "LeetCode / Hackerrank",
+              "url": "https://leetcode.com",
+              "isFree": true
+            },
+            {
+              "title": "Hussein Nasser Backend Engineering Masterclass",
+              "type": "YouTube",
+              "platform": "YouTube",
+              "url": "https://youtube.com",
+              "isFree": true
+            }
+          ]
+        },
+        {
+          "id": "l-mile-3",
+          "title": "Consensus Protocols & Fault-Tolerant Distributed State",
+          "description": "Implement distributed consensus algorithms (Raft), handle network splits, and write-ahead logging.",
+          "difficulty": "Intermediate",
+          "estimatedTime": "6 Weeks (38 hrs)",
+          "status": "In Progress",
+          "progress": 68,
+          "topics": [
+            {
+              "id": "t-3-1",
+              "title": "Raft consensus leader election and term transitions",
+              "completed": true,
+              "estimatedHours": 10
+            },
+            {
+              "id": "t-3-2",
+              "title": "Replicated write-ahead logs and commit index synchronization",
+              "completed": true,
+              "estimatedHours": 10
+            },
+            {
+              "id": "t-3-3",
+              "title": "Fault injection chaos testing under network partitions",
+              "completed": true,
+              "estimatedHours": 9
+            },
+            {
+              "id": "t-3-4",
+              "title": "Log snapshotting, memory compaction, and state recovery",
+              "completed": false,
+              "estimatedHours": 9
+            }
+          ],
+          "resources": [
+            {
+              "title": "MIT 6.824: Distributed Systems Labs",
+              "type": "Course",
+              "platform": "MIT OpenCourseWare",
+              "url": "https://pdos.csail.mit.edu/6.824/",
+              "isFree": true
+            },
+            {
+              "title": "The Raft Consensus Paper & Interactive Visualization",
+              "type": "Documentation",
+              "platform": "Raft.github.io",
+              "url": "https://raft.github.io",
+              "isFree": true
+            },
+            {
+              "title": "Distributed Systems Concurrency Challenges",
+              "type": "Practice Platform",
+              "platform": "Fly.io Gossip Labs",
+              "url": "https://fly.io/dist-sys/",
+              "isFree": true
+            },
+            {
+              "title": "Martin Kleppmann Distributed Systems Video Series",
+              "type": "YouTube",
+              "platform": "YouTube (Cambridge)",
+              "url": "https://youtube.com",
+              "isFree": true
+            }
+          ]
+        },
+        {
+          "id": "l-mile-4",
+          "title": "Cloud Orchestration, Kubernetes & Distributed Observability",
+          "description": "Deploy containerized services on Kubernetes, configure ingress rate limits, and instrument OpenTelemetry.",
+          "difficulty": "Advanced",
+          "estimatedTime": "5 Weeks (30 hrs)",
+          "status": "Planned",
+          "progress": 0,
+          "topics": [
+            {
+              "id": "t-4-1",
+              "title": "Kubernetes Pods, Services, Deployments, and ConfigMaps",
+              "completed": false,
+              "estimatedHours": 8
+            },
+            {
+              "id": "t-4-2",
+              "title": "Prometheus metrics scrapers and Grafana dashboard visualization",
+              "completed": false,
+              "estimatedHours": 8
+            },
+            {
+              "id": "t-4-3",
+              "title": "OpenTelemetry context propagation and distributed span tracing",
+              "completed": false,
+              "estimatedHours": 7
+            },
+            {
+              "id": "t-4-4",
+              "title": "High-throughput stress testing with k6 and p99 profiling",
+              "completed": false,
+              "estimatedHours": 7
+            }
+          ],
+          "resources": [
+            {
+              "title": "Kubernetes The Hard Way (Kelsey Hightower)",
+              "type": "Tutorial",
+              "platform": "GitHub",
+              "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+              "isFree": true
+            },
+            {
+              "title": "OpenTelemetry Official Specification & Instrumentation Guide",
+              "type": "Documentation",
+              "platform": "OpenTelemetry.io",
+              "url": "https://opentelemetry.io",
+              "isFree": true
+            },
+            {
+              "title": "KillerCoda Interactive Kubernetes Playground",
+              "type": "Practice Platform",
+              "platform": "Killercoda",
+              "url": "https://killercoda.com",
+              "isFree": true
+            },
+            {
+              "title": "TechWorld with Nana: Complete DevOps & Kubernetes Roadmap",
+              "type": "YouTube",
+              "platform": "YouTube",
+              "url": "https://youtube.com",
+              "isFree": true
+            }
+          ]
+        },
+        {
+          "id": "l-mile-5",
+          "title": "Capstone Defense, System Architecture Synthesis & Leadership",
+          "description": "Synthesize production case studies, lead technical design reviews, and master system design whiteboarding.",
+          "difficulty": "Advanced",
+          "estimatedTime": "4 Weeks (24 hrs)",
+          "status": "Planned",
+          "progress": 0,
+          "topics": [
+            {
+              "id": "t-5-1",
+              "title": "Architectural RFC writing with trade-off matrices",
+              "completed": false,
+              "estimatedHours": 6
+            },
+            {
+              "id": "t-5-2",
+              "title": "High-scale mock system design whiteboarding (100k+ QPS)",
+              "completed": false,
+              "estimatedHours": 6
+            },
+            {
+              "id": "t-5-3",
+              "title": "Cross-functional engineering communication and peer code review",
+              "completed": false,
+              "estimatedHours": 6
+            },
+            {
+              "id": "t-5-4",
+              "title": "Technical portfolio publication and open-source contribution",
+              "completed": false,
+              "estimatedHours": 6
+            }
+          ],
+          "resources": [
+            {
+              "title": "System Design Interview Primer (Donne Martin)",
+              "type": "Practice Platform",
+              "platform": "GitHub",
+              "url": "https://github.com/donnemartin/system-design-primer",
+              "isFree": true
+            },
+            {
+              "title": "Google Engineering Practices Guide on Code Reviews",
+              "type": "Documentation",
+              "platform": "Google GitHub",
+              "url": "https://google.github.io/eng-practices/",
+              "isFree": true
+            },
+            {
+              "title": "Interviewing.io Mock Architecture Sessions",
+              "type": "Course",
+              "platform": "Interviewing.io",
+              "url": "https://interviewing.io",
+              "isFree": false
+            },
+            {
+              "title": "Gaurav Sen System Design Fundamentals",
+              "type": "YouTube",
+              "platform": "YouTube",
+              "url": "https://youtube.com",
+              "isFree": true
+            }
+          ]
+        }
+      ],
+      "learningGoals": [
+        {
+          "id": "goal-1",
+          "title": "Review Raft consensus log compaction & snapshotting paper section",
+          "timeframe": "Daily",
+          "skillCategory": "DSA / Algorithms",
+          "targetDate": "2026-10-05",
+          "completed": true,
+          "completedAt": "2026-10-04",
+          "notes": "Completed pages 8-11 covering state machine log truncation."
+        },
+        {
+          "id": "goal-2",
+          "title": "Practice 2 concurrent Goroutine channel synchronization problems",
+          "timeframe": "Daily",
+          "skillCategory": "Programming",
+          "targetDate": "2026-10-05",
+          "completed": false,
+          "notes": "Focus on deadlock prevention with select timeouts."
+        },
+        {
+          "id": "goal-3",
+          "title": "Configure Docker Compose multi-node cluster with volume persistence",
+          "timeframe": "Weekly",
+          "skillCategory": "Cloud & Containers",
+          "targetDate": "2026-10-09",
+          "completed": true,
+          "completedAt": "2026-10-03",
+          "notes": "Verified healthy quorum restarts after container termination."
+        },
+        {
+          "id": "goal-4",
+          "title": "Write technical ADR (Architecture Decision Record) for Raft state storage",
+          "timeframe": "Weekly",
+          "skillCategory": "Communication / Writing",
+          "targetDate": "2026-10-11",
+          "completed": false,
+          "notes": "Include comparison between RocksDB vs memory-mapped files."
+        },
+        {
+          "id": "goal-5",
+          "title": "Complete Kubernetes Pod & Deployment fundamentals module",
+          "timeframe": "Monthly",
+          "skillCategory": "Cloud & Infrastructure",
+          "targetDate": "2026-10-31",
+          "completed": false,
+          "notes": "Target finishing KillerCoda interactive labs and manifest templates."
+        }
+      ],
+      "streakData": {
+        "currentStreak": 5,
+        "longestStreak": 14,
+        "totalDays": 24,
+        "totalHours": 54,
+        "lastActiveDate": "2026-10-04",
+        "badges": [
+          {
+            "id": "badge-1",
+            "title": "Consistent Explorer",
+            "description": "Maintained an active 5-day consecutive learning streak.",
+            "icon": "Flame",
+            "achieved": true,
+            "unlockedAt": "2026-10-04"
+          },
+          {
+            "id": "badge-2",
+            "title": "Protocol Master",
+            "description": "Achieved >90% proficiency in low-level distributed consensus.",
+            "icon": "ShieldCheck",
+            "achieved": true,
+            "unlockedAt": "2026-10-03"
+          },
+          {
+            "id": "badge-3",
+            "title": "Dual-Threat Developer",
+            "description": "Actively tracking and practicing both Technical and Soft skills.",
+            "icon": "Sparkles",
+            "achieved": true,
+            "unlockedAt": "2026-09-28"
+          },
+          {
+            "id": "badge-4",
+            "title": "Milestone Finisher",
+            "description": "Completed 2 full engineering curriculum modules with 100% topic checkoffs.",
+            "icon": "Award",
+            "achieved": true,
+            "unlockedAt": "2026-09-20"
+          },
+          {
+            "id": "badge-5",
+            "title": "Cloud Architect Apprentice",
+            "description": "Deploy first multi-container service on Kubernetes.",
+            "icon": "Cloud",
+            "achieved": false
+          },
+          {
+            "id": "badge-6",
+            "title": "Century Study Club",
+            "description": "Accumulate 100 verified learning hours.",
+            "icon": "Zap",
+            "achieved": false
+          }
+        ]
+      },
+      "activitySessions": [
+        {
+          "id": "act-1",
+          "date": "2026-10-04",
+          "minutes": 45,
+          "topicsCovered": "Docker Compose multi-node networking & quorum restarts",
+          "skillName": "Docker & Container Architecture"
+        },
+        {
+          "id": "act-2",
+          "date": "2026-10-03",
+          "minutes": 60,
+          "topicsCovered": "Raft consensus log compaction & snapshotting paper section",
+          "skillName": "Distributed Consensus & Raft"
+        },
+        {
+          "id": "act-3",
+          "date": "2026-10-02",
+          "minutes": 40,
+          "topicsCovered": "Concurrent Goroutine channel synchronization & deadlock debugging",
+          "skillName": "Go & Systems Concurrency (Goroutines / Mutex)"
+        },
+        {
+          "id": "act-4",
+          "date": "2026-10-01",
+          "minutes": 50,
+          "topicsCovered": "Technical ADR writing on RocksDB vs memory-mapped WAL storage",
+          "skillName": "Technical Architecture Writing (RFCs & ADRs)"
+        },
+        {
+          "id": "act-5",
+          "date": "2026-09-30",
+          "minutes": 35,
+          "topicsCovered": "Sliding-window Redis token bucket rate limiting edge cases",
+          "skillName": "Redis Distributed Caching & Rate Limiting"
+        }
+      ],
+      "monthlyBudget": 8000,
+      "expenses": [
+        {
+          "id": "exp-1",
+          "amount": 1450,
+          "reason": "Arduino & ESP32 Microcontroller Kit for Capstone Project",
+          "category": "Projects",
+          "date": "2026-10-01",
+          "isAcademic": true
+        },
+        {
+          "id": "exp-2",
+          "amount": 850,
+          "reason": "Designing Data-Intensive Applications Reference Book",
+          "category": "Education",
+          "date": "2026-10-02",
+          "isAcademic": true
+        },
+        {
+          "id": "exp-3",
+          "amount": 650,
+          "reason": "Campus Canteen Lunch Pass (Week 1)",
+          "category": "Food",
+          "date": "2026-10-02",
+          "isAcademic": false
+        },
+        {
+          "id": "exp-4",
+          "amount": 600,
+          "reason": "Monthly Metro & Bus Student Transit Pass",
+          "category": "Travel",
+          "date": "2026-10-03",
+          "isAcademic": false
+        },
+        {
+          "id": "exp-5",
+          "amount": 1300,
+          "reason": "Weekend Restaurant Dinner with Classmates at Olive Bistro",
+          "category": "Food",
+          "date": "2026-10-03",
+          "isAcademic": false
+        },
+        {
+          "id": "exp-6",
+          "amount": 1200,
+          "reason": "Restaurant Food Delivery & Takeout (Swiggy)",
+          "category": "Food",
+          "date": "2026-10-04",
+          "isAcademic": false
+        }
+      ],
+      "placementProjects": [
+        {
+          "id": "proj-p4-1",
+          "title": "Distributed Raft Consensus Engine & Replicated State Machine",
+          "difficulty": "Advanced",
+          "domain": "Distributed Systems & Cloud Infrastructure",
+          "objective": "Implement fault-tolerant leader election, log replication, and snapshotting state compaction adhering to the canonical Raft protocol.",
+          "techStack": [
+            "Go",
+            "gRPC",
+            "Protobuf",
+            "Docker",
+            "Testcontainers"
+          ],
+          "expectedOutcome": "A cluster of 3 to 5 nodes that safely survives network splits, packet drops, and node crashes without data loss.",
+          "timelineWeeks": 6,
+          "progress": 100,
+          "status": "Completed",
+          "githubUrl": "https://github.com/alexrivera/raft-consensus-engine",
+          "demoUrl": "https://raft-visualizer-demo.internal.app",
+          "inPortfolio": true,
+          "milestones": [
+            {
+              "id": "m1",
+              "title": "Leader Election & Heartbeat Protocol",
+              "tasks": [
+                "Randomized election timers",
+                "RequestVote RPC mechanism",
+                "Term transition safety"
+              ],
+              "completed": true
+            },
+            {
+              "id": "m2",
+              "title": "Replicated Write-Ahead Logging",
+              "tasks": [
+                "AppendEntries RPC protocol",
+                "CommitIndex advancement",
+                "Leader state synchronization"
+              ],
+              "completed": true
+            },
+            {
+              "id": "m3",
+              "title": "Fault Injection & Chaos Testing",
+              "tasks": [
+                "Partition network simulator",
+                "Dropping RPC packets test suite",
+                "Concurrent client stress harness"
+              ],
+              "completed": true
+            },
+            {
+              "id": "m4",
+              "title": "Memory Log Compaction & Snapshotting",
+              "tasks": [
+                "Disk snapshot chunking",
+                "Log compaction truncation",
+                "InstallSnapshot RPC for lagging followers"
+              ],
+              "completed": true
+            }
+          ],
+          "evaluation": {
+            "qualityScore": 91,
+            "rubric": {
+              "functionality": 19,
+              "technicalDepth": 24,
+              "relevance": 19,
+              "completeness": 18,
+              "careerAlignment": 11
+            },
+            "evaluationSummary": "Outstanding systems artifact showcasing production-level concurrency control, formal state machine replication, and rigorous deterministic chaos test suites.",
+            "strengths": [
+              "Deterministic chaos test harnesses that verify linearizability under simulated network partitions.",
+              "Clear separation of network transport from core state transition logic.",
+              "Clean memory snapshotting implementation preventing unbounded log growth."
+            ],
+            "gaps": [
+              "Prometheus metrics endpoint for heartbeat jitter and election latency is missing.",
+              "Dynamic cluster membership changes (joint consensus) are not yet implemented."
+            ],
+            "improvementActions": [
+              "Add OpenTelemetry traces for RPC serialization and commit latency profiling.",
+              "Publish an architectural RFC diagram in the repository README with benchmark graphs."
+            ],
+            "evaluatedAt": "2026-10-02"
+          }
+        },
+        {
+          "id": "proj-p4-2",
+          "title": "Sliding-Window Rate Limiting Reverse Proxy Gateway",
+          "difficulty": "Intermediate",
+          "domain": "Cloud Networking & Infrastructure",
+          "objective": "Create a high-performance reverse proxy that enforces sliding-window token bucket limits per IP and API key using Redis transactions.",
+          "techStack": [
+            "Node.js",
+            "Express",
+            "Redis",
+            "Docker",
+            "k6"
+          ],
+          "expectedOutcome": "Reverse proxy mitigating API bursts with sub-millisecond overhead and tiered client quota enforcement.",
+          "timelineWeeks": 4,
+          "progress": 100,
+          "status": "Completed",
+          "githubUrl": "https://github.com/alexrivera/redis-sliding-limiter",
+          "inPortfolio": true,
+          "milestones": [
+            {
+              "id": "m1",
+              "title": "Reverse Proxy & Route Forwarding",
+              "tasks": [
+                "Target origin proxying",
+                "Header sanitization",
+                "Health check ping endpoints"
+              ],
+              "completed": true
+            },
+            {
+              "id": "m2",
+              "title": "Sliding-Window Redis Token Storage",
+              "tasks": [
+                "Sorted set timestamp logging",
+                "Atomic Lua script pipeline",
+                "TTL automatic eviction"
+              ],
+              "completed": true
+            },
+            {
+              "id": "m3",
+              "title": "Stress Testing & Latency Benchmarks",
+              "tasks": [
+                "k6 script simulating 5,000 RPS",
+                "P99 latency profiling under burst load",
+                "Tiered role quota tests"
+              ],
+              "completed": true
+            }
+          ],
+          "evaluation": {
+            "qualityScore": 84,
+            "rubric": {
+              "functionality": 18,
+              "technicalDepth": 20,
+              "relevance": 18,
+              "completeness": 16,
+              "careerAlignment": 12
+            },
+            "evaluationSummary": "Robust backend utility proving applied distributed caching, atomic script execution, and API protection concepts valued by infrastructure engineering teams.",
+            "strengths": [
+              "Atomic Lua scripts inside Redis eliminating race conditions between concurrent requests.",
+              "Comprehensive k6 benchmark graphs demonstrating steady <1.2ms added proxy latency."
+            ],
+            "gaps": [
+              "Lacks circuit breaker fallback when Redis cluster experiences temporary degradation."
+            ],
+            "improvementActions": [
+              "Integrate a local in-memory fallback cache (LRU) for fail-open resilience during Redis timeouts."
+            ],
+            "evaluatedAt": "2026-09-24"
+          }
+        },
+        {
+          "id": "proj-p4-3",
+          "title": "Kubernetes Custom Operator for Distributed Cache Provisioning",
+          "difficulty": "Advanced",
+          "domain": "Cloud Infrastructure & DevOps",
+          "objective": "Build a Kubernetes Custom Resource Definition (CRD) and Go controller that automates provisioning, sharding, and backup of Redis cache clusters.",
+          "techStack": [
+            "Go",
+            "Kubernetes API",
+            "Kubebuilder",
+            "Helm",
+            "Minikube"
+          ],
+          "expectedOutcome": "Declarative YAML specifications automatically reconciled into healthy stateful sets with self-healing failover.",
+          "timelineWeeks": 5,
+          "progress": 60,
+          "status": "In Progress",
+          "inPortfolio": false,
+          "milestones": [
+            {
+              "id": "m1",
+              "title": "CRD Schema & Kubebuilder Scaffolding",
+              "tasks": [
+                "Define CacheCluster spec and status",
+                "Generate OpenAPI v3 validation schemas"
+              ],
+              "completed": true
+            },
+            {
+              "id": "m2",
+              "title": "Reconciler Loop & StatefulSet Lifecycle",
+              "tasks": [
+                "Watch CacheCluster resources",
+                "Reconcile headless services and PVC storage"
+              ],
+              "completed": true
+            },
+            {
+              "id": "m3",
+              "title": "Automated Leader Election & Shard Scaling",
+              "tasks": [
+                "Detect pod failures and trigger election",
+                "Dynamic horizontal shard addition"
+              ],
+              "completed": false
+            },
+            {
+              "id": "m4",
+              "title": "Integration Testing & Helm Packaging",
+              "tasks": [
+                "Envtest local API mock tests",
+                "Package operator into Helm chart repository"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "proj-p4-4",
+          "title": "Concurrent HTTP Reverse Proxy with Round-Robin & Health Pings",
+          "difficulty": "Beginner",
+          "domain": "Systems Programming & Networking",
+          "objective": "Implement a multithreaded TCP proxy in C++ or Go that balances client traffic across upstream worker backends with active health monitoring.",
+          "techStack": [
+            "Go",
+            "TCP/Sockets",
+            "Goroutines",
+            "Curl"
+          ],
+          "expectedOutcome": "Functional command-line proxy distributing HTTP traffic with zero external framework dependencies.",
+          "timelineWeeks": 3,
+          "progress": 100,
+          "status": "Completed",
+          "githubUrl": "https://github.com/alexrivera/concurrency-proxy",
+          "inPortfolio": true,
+          "milestones": [
+            {
+              "id": "m1",
+              "title": "Socket Binding & TCP Acceptance",
+              "tasks": [
+                "Listen on TCP port 8080",
+                "Parse incoming HTTP header stream"
+              ],
+              "completed": true
+            },
+            {
+              "id": "m2",
+              "title": "Upstream Pool & Round-Robin Balancing",
+              "tasks": [
+                "Mutex-guarded server pointer",
+                "Forward requests and stream responses"
+              ],
+              "completed": true
+            },
+            {
+              "id": "m3",
+              "title": "Health Checks & Backend Removal",
+              "tasks": [
+                "Periodic background goroutine pinging /health",
+                "Remove unhealthy servers from rotation"
+              ],
+              "completed": true
+            }
+          ],
+          "evaluation": {
+            "qualityScore": 82,
+            "rubric": {
+              "functionality": 18,
+              "technicalDepth": 19,
+              "relevance": 17,
+              "completeness": 17,
+              "careerAlignment": 11
+            },
+            "evaluationSummary": "Solid low-level systems programming artifact illustrating pure network sockets, goroutine scheduling, and thread safety.",
+            "strengths": [
+              "Zero external dependencies",
+              "Clean socket lifecycle management without connection leaks"
+            ],
+            "gaps": [
+              "Lacks HTTP keep-alive connection reuse pooling"
+            ],
+            "improvementActions": [
+              "Add a persistent TCP connection pool to minimize handshake overhead under high concurrency."
+            ],
+            "evaluatedAt": "2026-08-18"
+          }
+        }
+      ],
+      "studentResume": {
+        "id": "res-alex-2026",
+        "fullName": "Alex Rivera",
+        "email": "alex.rivera@university.edu",
+        "phone": "+1 (555) 234-8901",
+        "location": "Bangalore, India / Open to Remote",
+        "targetRole": "Cloud & Infrastructure Engineer",
+        "summary": "Motivated 3rd Year Computer Science student specializing in distributed systems, high-concurrency backend services, and cloud containerization. Proven hands-on track record building Raft consensus protocols, Redis-backed sliding rate limiters, and Docker orchestration pipelines.",
+        "education": [
+          {
+            "institution": "State Institute of Engineering & Technology",
+            "degree": "B.Tech in Computer Science & Engineering",
+            "year": "2023 - 2027 (Expected)",
+            "gpa": "8.9 / 10.0"
+          }
+        ],
+        "skills": {
+          "programming": [
+            "Go",
+            "TypeScript",
+            "Node.js",
+            "Python",
+            "C++ (Foundations)",
+            "SQL"
+          ],
+          "frameworksAndTools": [
+            "Express",
+            "gRPC & Protocol Buffers",
+            "Docker & Compose",
+            "Git / GitHub",
+            "Jest",
+            "k6"
+          ],
+          "cloudAndDevOps": [
+            "Kubernetes (Basics)",
+            "Redis",
+            "PostgreSQL",
+            "Linux Systems / POSIX",
+            "OpenTelemetry (Learning)"
+          ],
+          "softSkills": [
+            "Technical RFC Writing",
+            "System Design Whiteboarding",
+            "Constructive Code Reviews",
+            "Problem Solving"
+          ]
+        },
+        "projects": [
+          {
+            "id": "p1",
+            "title": "Distributed Log Replicator with Raft Consensus Engine",
+            "techStack": [
+              "Go",
+              "gRPC",
+              "Docker",
+              "Testcontainers"
+            ],
+            "summary": "Implemented canonical Raft distributed state machine enabling leader election, log replication, and snapshot compaction across 5 nodes.",
+            "githubUrl": "https://github.com/alexrivera/raft-consensus-engine",
+            "highlights": [
+              "Engineered leader election timers and persistent Write-Ahead Logging surviving simulated split-brain partitions.",
+              "Built automated chaos test harness simulating network latency and dropped RPC packets with 100% linearizable commit verification.",
+              "Implemented memory log compaction via state snapshotting, truncating WAL file sizes by 75% under prolonged load."
+            ]
+          },
+          {
+            "id": "p2",
+            "title": "Sliding-Window API Rate Limiter & Token Gateway",
+            "techStack": [
+              "Node.js",
+              "Redis",
+              "Docker",
+              "k6"
+            ],
+            "summary": "High-throughput reverse proxy enforcing tiered client quotas and burst mitigation using atomic Redis Lua scripts.",
+            "githubUrl": "https://github.com/alexrivera/redis-sliding-limiter",
+            "highlights": [
+              "Eliminated multi-roundtrip network latencies by executing atomic Lua scripts inside Redis for timestamp sorted-set evaluation.",
+              "Stress-tested up to 5,000 requests per second with k6, sustaining sub-1.2ms added proxy overhead at p99.",
+              "Engineered fail-safe error boundaries ensuring graceful throughput handling during intermittent cache disconnections."
+            ]
+          }
+        ],
+        "experience": [
+          {
+            "id": "exp-1",
+            "role": "Student Software Engineering Lead",
+            "company": "Campus Open Source Society",
+            "duration": "Aug 2025 - Present",
+            "highlights": [
+              "Organized weekly systems architecture workshops for 60+ junior engineering students covering concurrency and Docker.",
+              "Maintained community code repositories, reviewing 45+ pull requests with strict adherence to linting and unit test coverage."
+            ]
+          }
+        ],
+        "certifications": [
+          {
+            "name": "Docker Certified Associate Preparatory Milestone",
+            "issuer": "Linux Foundation / Cloud Training Lab",
+            "year": "2026"
+          },
+          {
+            "name": "Distributed Systems & Microservices Architecture",
+            "issuer": "Coursera / University Curriculum",
+            "year": "2025"
+          }
+        ],
+        "lastUpdated": "2026-10-04"
+      },
+      "resumeAnalysis": {
+        "overallScore": 86,
+        "roleMatchScore": 84,
+        "matchedKeywords": [
+          "Distributed Systems",
+          "Raft Consensus",
+          "gRPC",
+          "Protocol Buffers",
+          "Docker",
+          "Redis",
+          "Concurrency & Goroutines",
+          "Linux / POSIX",
+          "Stress Testing (k6)",
+          "Write-Ahead Logging (WAL)"
+        ],
+        "missingKeywords": [
+          "Kubernetes Pod Manifests",
+          "CI/CD Pipelines (GitHub Actions)",
+          "Prometheus / Grafana Monitoring",
+          "OpenTelemetry Distributed Tracing",
+          "Cloud Platforms (AWS / GCP / Azure)",
+          "Terraform / Infrastructure as Code"
+        ],
+        "weakSections": [
+          {
+            "section": "Work Experience / Industry Proof",
+            "feedback": "Experience section currently only lists campus societies without an external commercial internship artifact.",
+            "recommendation": "Highlight practical deliverables and student team leadership metrics, or target early summer internship applications."
+          },
+          {
+            "section": "Cloud & CI/CD Tooling",
+            "feedback": "Kubernetes and OpenTelemetry are marked as Basics / Learning without hands-on deployment bullets.",
+            "recommendation": "Complete Project 3 (Kubernetes Operator) to add a concrete production orchestration bullet."
+          }
+        ],
+        "projectImprovements": [
+          {
+            "projectTitle": "Distributed Log Replicator with Raft Consensus Engine",
+            "originalBullet": "Built automated chaos test harness simulating network latency and dropped RPC packets with 100% linearizable commit verification.",
+            "improvedBullet": "Engineered an automated network partition test suite simulating 200ms latency spikes and dropped RPC packets, validating linearizability with 0% data loss under cluster split-brain conditions.",
+            "reason": "Quantifies the exact stress threshold and explicit resilience outcome for technical recruiters."
+          },
+          {
+            "projectTitle": "Sliding-Window API Rate Limiter & Token Gateway",
+            "originalBullet": "High-throughput reverse proxy enforcing tiered client quotas and burst mitigation using atomic Redis Lua scripts.",
+            "improvedBullet": "Architected a reverse proxy gateway processing 5,000+ RPS under sub-1.2ms latency overhead using atomic Redis Lua scripts to eliminate state race conditions.",
+            "reason": "Leads with strong action verbs and specific throughput and latency benchmarks."
+          }
+        ],
+        "actionableFixes": [
+          "Add a dedicated CI/CD bullet under the Raft project detailing automated GitHub Actions running unit and chaos tests.",
+          "Incorporate the upcoming Kubernetes operator project once milestone 2 is reached to boost Cloud keyword match.",
+          "Specify cloud infrastructure hosting details (e.g. deployed on Docker Compose or local Minikube cluster)."
+        ],
+        "analyzedAt": "2026-10-05"
+      },
+      "resumeVersions": [
+        {
+          "id": "ver-demo-v1",
+          "versionNumber": 1,
+          "title": "v1 - Cloud & Infrastructure Engineer (Verified Baseline)",
+          "targetRole": "Cloud & Infrastructure Engineer",
+          "resume": {
+            "id": "res-alex-2026",
+            "fullName": "Alex Rivera",
+            "email": "alex.rivera@university.edu",
+            "phone": "+1 (555) 234-8901",
+            "location": "Bangalore, India / Open to Remote",
+            "targetRole": "Cloud & Infrastructure Engineer",
+            "summary": "Motivated 3rd Year Computer Science student specializing in distributed systems, high-concurrency backend services, and cloud containerization. Proven hands-on track record building Raft consensus protocols, Redis-backed sliding rate limiters, and Docker orchestration pipelines.",
+            "education": [
+              {
+                "institution": "State Institute of Engineering & Technology",
+                "degree": "B.Tech in Computer Science & Engineering",
+                "year": "2023 - 2027 (Expected)",
+                "gpa": "8.9 / 10.0"
+              }
+            ],
+            "skills": {
+              "programming": [
+                "Go",
+                "TypeScript",
+                "Node.js",
+                "Python",
+                "C++ (Foundations)",
+                "SQL"
+              ],
+              "frameworksAndTools": [
+                "Express",
+                "gRPC & Protocol Buffers",
+                "Docker & Compose",
+                "Git / GitHub",
+                "Jest",
+                "k6"
+              ],
+              "cloudAndDevOps": [
+                "Kubernetes (Basics)",
+                "Redis",
+                "PostgreSQL",
+                "Linux Systems / POSIX",
+                "OpenTelemetry (Learning)"
+              ],
+              "softSkills": [
+                "Technical RFC Writing",
+                "System Design Whiteboarding",
+                "Constructive Code Reviews",
+                "Problem Solving"
+              ]
+            },
+            "projects": [
+              {
+                "id": "p1",
+                "title": "Distributed Log Replicator with Raft Consensus Engine",
+                "techStack": [
+                  "Go",
+                  "gRPC",
+                  "Docker",
+                  "Testcontainers"
+                ],
+                "summary": "Implemented canonical Raft distributed state machine enabling leader election, log replication, and snapshot compaction across 5 nodes.",
+                "githubUrl": "https://github.com/alexrivera/raft-consensus-engine",
+                "highlights": [
+                  "Engineered leader election timers and persistent Write-Ahead Logging surviving simulated split-brain partitions.",
+                  "Built automated chaos test harness simulating network latency and dropped RPC packets with 100% linearizable commit verification.",
+                  "Implemented memory log compaction via state snapshotting, truncating WAL file sizes by 75% under prolonged load."
+                ]
+              },
+              {
+                "id": "p2",
+                "title": "Sliding-Window API Rate Limiter & Token Gateway",
+                "techStack": [
+                  "Node.js",
+                  "Redis",
+                  "Docker",
+                  "k6"
+                ],
+                "summary": "High-throughput reverse proxy enforcing tiered client quotas and burst mitigation using atomic Redis Lua scripts.",
+                "githubUrl": "https://github.com/alexrivera/redis-sliding-limiter",
+                "highlights": [
+                  "Eliminated multi-roundtrip network latencies by executing atomic Lua scripts inside Redis for timestamp sorted-set evaluation.",
+                  "Stress-tested up to 5,000 requests per second with k6, sustaining sub-1.2ms added proxy overhead at p99.",
+                  "Engineered fail-safe error boundaries ensuring graceful throughput handling during intermittent cache disconnections."
+                ]
+              }
+            ],
+            "experience": [
+              {
+                "id": "exp-1",
+                "role": "Student Software Engineering Lead",
+                "company": "Campus Open Source Society",
+                "duration": "Aug 2025 - Present",
+                "highlights": [
+                  "Organized weekly systems architecture workshops for 60+ junior engineering students covering concurrency and Docker.",
+                  "Maintained community code repositories, reviewing 45+ pull requests with strict adherence to linting and unit test coverage."
+                ]
+              }
+            ],
+            "certifications": [
+              {
+                "name": "Docker Certified Associate Preparatory Milestone",
+                "issuer": "Linux Foundation / Cloud Training Lab",
+                "year": "2026"
+              },
+              {
+                "name": "Distributed Systems & Microservices Architecture",
+                "issuer": "Coursera / University Curriculum",
+                "year": "2025"
+              }
+            ],
+            "lastUpdated": "2026-10-04"
+          },
+          "analysis": {
+            "overallScore": 86,
+            "roleMatchScore": 84,
+            "matchedKeywords": [
+              "Distributed Systems",
+              "Raft Consensus",
+              "gRPC",
+              "Protocol Buffers",
+              "Docker",
+              "Redis",
+              "Concurrency & Goroutines",
+              "Linux / POSIX",
+              "Stress Testing (k6)",
+              "Write-Ahead Logging (WAL)"
+            ],
+            "missingKeywords": [
+              "Kubernetes Pod Manifests",
+              "CI/CD Pipelines (GitHub Actions)",
+              "Prometheus / Grafana Monitoring",
+              "OpenTelemetry Distributed Tracing",
+              "Cloud Platforms (AWS / GCP / Azure)",
+              "Terraform / Infrastructure as Code"
+            ],
+            "weakSections": [
+              {
+                "section": "Work Experience / Industry Proof",
+                "feedback": "Experience section currently only lists campus societies without an external commercial internship artifact.",
+                "recommendation": "Highlight practical deliverables and student team leadership metrics, or target early summer internship applications."
+              },
+              {
+                "section": "Cloud & CI/CD Tooling",
+                "feedback": "Kubernetes and OpenTelemetry are marked as Basics / Learning without hands-on deployment bullets.",
+                "recommendation": "Complete Project 3 (Kubernetes Operator) to add a concrete production orchestration bullet."
+              }
+            ],
+            "projectImprovements": [
+              {
+                "projectTitle": "Distributed Log Replicator with Raft Consensus Engine",
+                "originalBullet": "Built automated chaos test harness simulating network latency and dropped RPC packets with 100% linearizable commit verification.",
+                "improvedBullet": "Engineered an automated network partition test suite simulating 200ms latency spikes and dropped RPC packets, validating linearizability with 0% data loss under cluster split-brain conditions.",
+                "reason": "Quantifies the exact stress threshold and explicit resilience outcome for technical recruiters."
+              },
+              {
+                "projectTitle": "Sliding-Window API Rate Limiter & Token Gateway",
+                "originalBullet": "High-throughput reverse proxy enforcing tiered client quotas and burst mitigation using atomic Redis Lua scripts.",
+                "improvedBullet": "Architected a reverse proxy gateway processing 5,000+ RPS under sub-1.2ms latency overhead using atomic Redis Lua scripts to eliminate state race conditions.",
+                "reason": "Leads with strong action verbs and specific throughput and latency benchmarks."
+              }
+            ],
+            "actionableFixes": [
+              "Add a dedicated CI/CD bullet under the Raft project detailing automated GitHub Actions running unit and chaos tests.",
+              "Incorporate the upcoming Kubernetes operator project once milestone 2 is reached to boost Cloud keyword match.",
+              "Specify cloud infrastructure hosting details (e.g. deployed on Docker Compose or local Minikube cluster)."
+            ],
+            "analyzedAt": "2026-10-04"
+          },
+          "createdAt": "2026-09-28T10:00:00.000Z",
+          "source": "ai_generated",
+          "notes": "Initial ATS baseline compiled from verified distributed systems and proxy projects."
+        }
+      ],
+      "internships": [
+        {
+          "id": "int-1",
+          "roleTitle": "Software Engineering Intern — Cloud & Core Infrastructure",
+          "companyName": "Google",
+          "location": "Bangalore / Hyderabad, India",
+          "mode": "Hybrid",
+          "stipend": "₹1,15,000 / month",
+          "duration": "10 - 12 Weeks (Summer 2027)",
+          "applicationDeadline": "2026-11-15",
+          "applyUrl": "https://careers.google.com/jobs/results/",
+          "departmentMatch": [
+            "Computer Science & Engineering",
+            "Artificial Intelligence & Data Science"
+          ],
+          "requiredSkills": [
+            "Data Structures & Algorithms",
+            "C++ or Go or Java",
+            "Systems Concurrency",
+            "Operating Systems Primitives"
+          ],
+          "preferredSkills": [
+            "Distributed Systems",
+            "gRPC / RPC protocols",
+            "Linux Kernel internals",
+            "Open Source contributions"
+          ],
+          "matchScore": 92,
+          "matchReasons": [
+            "Your Raft consensus project directly aligns with Google Borg and Spanner consensus concepts.",
+            "Strong proficiency in Go, concurrency control, and deterministic test harnesses.",
+            "GPA of 8.9 meets Google candidate qualification thresholds."
+          ],
+          "missingRequirements": [
+            "Advanced graph algorithm speed on timed LeetCode assessments.",
+            "Distributed telemetry / OpenTelemetry metrics instrumentation."
+          ],
+          "isRealListing": true,
+          "status": "Saved"
+        },
+        {
+          "id": "int-2",
+          "roleTitle": "Software Engineering Intern — Azure Cloud Platform",
+          "companyName": "Microsoft",
+          "location": "Hyderabad / Bangalore, India",
+          "mode": "Hybrid",
+          "stipend": "₹1,00,000 / month",
+          "duration": "8 - 10 Weeks (Summer 2027)",
+          "applicationDeadline": "2026-11-30",
+          "applyUrl": "https://careers.microsoft.com/students",
+          "departmentMatch": [
+            "Computer Science & Engineering",
+            "Electronics & Communication Engineering"
+          ],
+          "requiredSkills": [
+            "Object-Oriented Programming",
+            "Algorithms & Complexity",
+            "System Design Fundamentals",
+            "Cloud Basics"
+          ],
+          "preferredSkills": [
+            "Docker / Containers",
+            "Kubernetes",
+            "API Rate Limiting",
+            "C# or Go"
+          ],
+          "matchScore": 88,
+          "matchReasons": [
+            "Sliding-window Redis rate limiter proves practical knowledge of cloud gateway infrastructure.",
+            "Active daily learning streak (5 days) and high consistency score (88%).",
+            "Solid foundations in containerization and microservices."
+          ],
+          "missingRequirements": [
+            "Kubernetes operator project needs to reach at least milestone 3."
+          ],
+          "isRealListing": true,
+          "status": "Not Applied"
+        },
+        {
+          "id": "int-3",
+          "roleTitle": "Software Development Engineer (SDE) Intern — AWS Platform",
+          "companyName": "Amazon",
+          "location": "Bangalore / Chennai, India",
+          "mode": "On-site",
+          "stipend": "₹80,000 / month",
+          "duration": "6 Months (Jan - Jun 2027)",
+          "applicationDeadline": "2026-12-15",
+          "applyUrl": "https://amazon.jobs/en/teams/student-programs",
+          "departmentMatch": [
+            "Computer Science & Engineering",
+            "Information Technology"
+          ],
+          "requiredSkills": [
+            "Java or C++ or Python",
+            "DSA & Problem Solving",
+            "Database Design (SQL/NoSQL)",
+            "Linux"
+          ],
+          "preferredSkills": [
+            "High-volume transactions",
+            "Distributed caching (Redis)",
+            "Object Storage"
+          ],
+          "matchScore": 86,
+          "matchReasons": [
+            "Redis caching project demonstrates direct mastery of NoSQL and in-memory caches.",
+            "Evaluated project score of 88 on Raft matches Amazon high-complexity engineering bar."
+          ],
+          "missingRequirements": [
+            "Leadership Principles behavioral stories practice (Customer Obsession, Ownership)."
+          ],
+          "isRealListing": true,
+          "status": "Not Applied"
+        },
+        {
+          "id": "int-4",
+          "roleTitle": "Systems Software Engineer Intern — Linux & Cloud",
+          "companyName": "Red Hat",
+          "location": "Bangalore / Remote, India",
+          "mode": "Remote",
+          "stipend": "₹65,000 / month",
+          "duration": "6 Months (Flexible)",
+          "applicationDeadline": "2026-12-01",
+          "applyUrl": "https://www.redhat.com/en/jobs",
+          "departmentMatch": [
+            "Computer Science & Engineering"
+          ],
+          "requiredSkills": [
+            "Linux Architecture",
+            "C or Go",
+            "Git & Open Source Workflow",
+            "POSIX Sockets"
+          ],
+          "preferredSkills": [
+            "Kubernetes Custom Controllers",
+            "Kernel memory models",
+            "Ansible"
+          ],
+          "matchScore": 89,
+          "matchReasons": [
+            "Low-level TCP proxy and Raft engine prove strong alignment with open-source systems engineering.",
+            "Open-source society lead role demonstrates community collaboration."
+          ],
+          "missingRequirements": [
+            "Complete the Kubebuilder CRD controller milestone in Project 3."
+          ],
+          "isRealListing": true,
+          "status": "Not Applied"
+        },
+        {
+          "id": "int-5",
+          "roleTitle": "Backend Platform Engineering Intern",
+          "companyName": "Razorpay",
+          "location": "Bangalore, India",
+          "mode": "Hybrid",
+          "stipend": "₹50,000 / month",
+          "duration": "3 - 6 Months",
+          "applicationDeadline": "2026-11-20",
+          "applyUrl": "https://razorpay.com/jobs/",
+          "departmentMatch": [
+            "Computer Science & Engineering",
+            "Information Technology"
+          ],
+          "requiredSkills": [
+            "Node.js or Go",
+            "PostgreSQL or MySQL",
+            "REST & gRPC APIs",
+            "Redis"
+          ],
+          "preferredSkills": [
+            "Financial transaction idempotency",
+            "Distributed locks",
+            "Docker"
+          ],
+          "matchScore": 91,
+          "matchReasons": [
+            "Rate limiting and atomic Lua script skills match fintech gateway security requirements.",
+            "Strong database index tuning and relational query optimization scores."
+          ],
+          "missingRequirements": [
+            "Payment idempotency and webhook retry mechanism case study."
+          ],
+          "isRealListing": true,
+          "status": "Saved"
+        }
+      ],
+      "interviewQuestions": [
+        {
+          "id": "q-tech-1",
+          "category": "Technical",
+          "topic": "Distributed Systems & Consensus",
+          "difficulty": "Advanced",
+          "question": "In the Raft consensus algorithm, how does a leader prevent split-brain anomalies when network partitions occur, and what happens when the partitioned network heals?",
+          "contextOrScenario": "Consider a 5-node cluster split into {Node 1, Node 2} and {Node 3, Node 4, Node 5}.",
+          "keyConceptsToCover": [
+            "Quorum requirement (majority: N/2 + 1)",
+            "Leader in minority partition cannot commit log entries",
+            "Term numbers and higher term overriding obsolete leader",
+            "Log reconciliation and AppendEntries rollback on reconnect"
+          ],
+          "sampleAnswerOutline": "In a 5-node cluster, a quorum requires at least 3 nodes. The minority partition {1, 2} cannot reach quorum, so client writes are acknowledged as uncommitted or rejected. Meanwhile, majority partition {3, 4, 5} elects a leader with a higher term and safely commits logs. When the partition heals, node 1 receives a heartbeat with a higher term, steps down to follower, and overwrites uncommitted logs with the authoritative leader log."
+        },
+        {
+          "id": "q-tech-2",
+          "category": "Technical",
+          "topic": "Concurrency & Go Goroutines",
+          "difficulty": "Intermediate",
+          "question": "Explain the difference between unbuffered and buffered channels in Go. How do you prevent goroutine leaks when communicating across worker pools?",
+          "keyConceptsToCover": [
+            "Unbuffered channel synchronization (rendezvous)",
+            "Buffered channel capacity and non-blocking until full",
+            "Context cancellation (context.WithCancel / WithTimeout)",
+            "Closing channels and select with default/timeout"
+          ],
+          "sampleAnswerOutline": "Unbuffered channels require both sender and receiver to be ready simultaneously, creating explicit synchronization. Buffered channels decouple timing until the buffer fills. Goroutine leaks occur when a sender or receiver blocks indefinitely on an unread channel. To prevent leaks, always pass a cancellable context, use select with ctx.Done(), and ensure worker pools have well-defined termination signals."
+        },
+        {
+          "id": "q-tech-3",
+          "category": "Technical",
+          "topic": "System Design & Rate Limiting",
+          "difficulty": "Intermediate",
+          "question": "Compare Token Bucket vs Sliding Window Counter rate limiting algorithms. Why is atomic execution (e.g., via Redis Lua) essential in distributed environments?",
+          "keyConceptsToCover": [
+            "Token bucket allows bursts with fixed refill rate",
+            "Sliding window prevents edge boundary traffic doubling",
+            "Race conditions in read-modify-write cycles across proxy instances",
+            "Atomic Lua execution eliminating distributed locking overhead"
+          ],
+          "sampleAnswerOutline": "Token bucket smoothly handles short bursts while enforcing a steady average. Fixed window counters suffer from edge boundary doubling (2x rate at boundary). Sliding window counter solves this by weighting historical intervals. In distributed setups, multiple proxy servers reading and then writing counters cause race conditions; Redis Lua scripts execute atomically on the single Redis thread, ensuring 100% accurate decrement without distributed mutex locks."
+        },
+        {
+          "id": "q-hr-1",
+          "category": "HR/Communication",
+          "topic": "Handling Conflict & Technical Disagreement",
+          "difficulty": "Intermediate",
+          "question": "Describe a situation where you had a strong disagreement with a peer or teammate regarding a technical architecture or code design choice. How did you resolve it?",
+          "contextOrScenario": "Use the STAR format: Situation, Task, Action, Result.",
+          "keyConceptsToCover": [
+            "Objective criteria over personal preference",
+            "Benchmarking or prototyping to test trade-offs",
+            "Active listening and respectful technical discourse",
+            "Committing to the agreed solution wholeheartedly"
+          ],
+          "sampleAnswerOutline": "Situation: When building our proxy project, a teammate wanted to use fixed window counters in memory while I advocated for Redis sliding window. Task: Align on an approach without stalling development. Action: I proposed benchmarking both on simulated burst traffic, writing a 30-line prototype of each and running k6. Result: We observed the 2x burst vulnerability in fixed windows, chose Redis with Lua, and documented the trade-off in an architectural ADR."
+        },
+        {
+          "id": "q-hr-2",
+          "category": "HR/Communication",
+          "topic": "Failure & Ownership",
+          "difficulty": "Intermediate",
+          "question": "Tell me about a time an engineering project or assignment did not go as planned. What was the mistake, how did you take ownership, and what did you learn?",
+          "keyConceptsToCover": [
+            "Direct accountability without shifting blame",
+            "Root cause analysis (RCA)",
+            "Immediate mitigation steps",
+            "Long-term process improvement or regression tests"
+          ]
+        },
+        {
+          "id": "q-apt-1",
+          "category": "Aptitude",
+          "topic": "Quantitative & Algorithmic Probability",
+          "difficulty": "Intermediate",
+          "question": "A distributed system uses 3 independent nodes. Each node has a 90% availability rate (0.9 probability of being operational). The system remains functional as long as at least 2 nodes are healthy. What is the overall availability of the cluster?",
+          "keyConceptsToCover": [
+            "Binomial probability formula: P(X >= 2)",
+            "Case 1: All 3 healthy = 0.9^3 = 0.729",
+            "Case 2: Exactly 2 healthy = 3 * (0.9^2) * 0.1 = 0.243",
+            "Total availability = 0.729 + 0.243 = 0.972 (97.2%)"
+          ],
+          "sampleAnswerOutline": "To calculate cluster availability where at least 2 of 3 independent nodes are operational: All 3 operational: (0.9)^3 = 0.729. Exactly 2 operational: 3 * (0.9)^2 * (0.1)^1 = 0.243. Summing both mutually exclusive states: 0.729 + 0.243 = 0.972, or 97.2% overall cluster availability."
+        },
+        {
+          "id": "q-apt-2",
+          "category": "Aptitude",
+          "topic": "Time & Work / System Throughput",
+          "difficulty": "Beginner",
+          "question": "Server A can process 1,200 requests per minute. Server B can process 1,800 requests per minute. If both servers work concurrently behind a load balancer, how many seconds will it take them to process a total batch of 15,000 requests?",
+          "keyConceptsToCover": [
+            "Combined processing rate: 1,200 + 1,800 = 3,000 requests/minute",
+            "Rate per second: 3,000 / 60 = 50 requests/second",
+            "Total time: 15,000 / 50 = 300 seconds (5 minutes)"
+          ],
+          "sampleAnswerOutline": "Server A and B combine for 1,200 + 1,800 = 3,000 requests per minute. Dividing by 60 gives 50 requests per second. For 15,000 requests, 15,000 / 50 = 300 seconds (or exactly 5 minutes)."
+        }
+      ],
+      "interviewAttempts": [
+        {
+          "id": "att-1",
+          "questionId": "q-tech-1",
+          "category": "Technical",
+          "topic": "Distributed Systems & Consensus",
+          "questionText": "In the Raft consensus algorithm, how does a leader prevent split-brain anomalies when network partitions occur?",
+          "studentResponse": "Raft prevents split-brain anomalies by enforcing a quorum requirement. In a 5-node cluster, a quorum requires at least 3 nodes (majority N/2 + 1). If the cluster splits into 2 and 3 nodes, the leader in the 2-node minority partition cannot reach a quorum, so it cannot commit any client logs. The majority 3-node partition elects a leader with an incremented term. When the network partition heals, the partitioned leader sees the higher term, steps down to follower, and reverts uncommitted entries.",
+          "score": 92,
+          "feedback": {
+            "strengths": [
+              "Accurately defined the strict majority quorum rule (N/2 + 1).",
+              "Correctly distinguished between receiving writes vs committing writes in a minority partition.",
+              "Clear explanation of term monotonicity and safe step-down behavior."
+            ],
+            "improvements": [
+              "Could briefly mention client RPC timeout behavior during the partition interval."
+            ],
+            "modelAnswerSnippet": "Excellent answer. Emphasize that client requests to the minority partition can either be rejected or buffered until election timeout."
+          },
+          "attemptedAt": "2026-10-03"
+        },
+        {
+          "id": "att-2",
+          "questionId": "q-tech-3",
+          "category": "Technical",
+          "topic": "System Design & Rate Limiting",
+          "questionText": "Compare Token Bucket vs Sliding Window Counter rate limiting algorithms.",
+          "studentResponse": "Token bucket adds tokens at a fixed rate up to capacity and allows short bursts when enough tokens are stored. Sliding window counts timestamps within a rolling window to avoid boundary spikes. We use Redis Lua scripts because multiple servers checking the counter at once would cause race conditions.",
+          "score": 85,
+          "feedback": {
+            "strengths": [
+              "Clear explanation of burst allowance in token bucket.",
+              "Identified the boundary spike flaw of fixed windows.",
+              "Rightly highlighted concurrency race conditions in distributed setups."
+            ],
+            "improvements": [
+              "Explain specifically how Lua scripts execute atomically on the single Redis event loop without mutex locking."
+            ],
+            "modelAnswerSnippet": "Great foundation. Mention that Lua scripts run atomically, eliminating roundtrip latency and race conditions."
+          },
+          "attemptedAt": "2026-10-02"
+        },
+        {
+          "id": "att-3",
+          "questionId": "q-hr-1",
+          "category": "HR/Communication",
+          "topic": "Handling Conflict & Technical Disagreement",
+          "questionText": "Describe a situation where you had a strong disagreement with a peer or teammate regarding a technical architecture or code design choice.",
+          "studentResponse": "When building our proxy, my peer wanted to store counters in Node.js memory, but I wanted to use Redis. I argued that memory counters would not work across multiple instances. We ran a quick test with 2 node instances and showed that the limit was doubled. Then we agreed to use Redis.",
+          "score": 82,
+          "feedback": {
+            "strengths": [
+              "Good practical example demonstrating data-driven consensus rather than ego.",
+              "Addressed the technical problem clearly."
+            ],
+            "improvements": [
+              "Structure explicitly using STAR (Situation, Task, Action, Result) format to showcase polished verbal communication.",
+              "Emphasize how you maintained a collaborative relationship after the resolution."
+            ],
+            "modelAnswerSnippet": "Highlight how you fostered mutual respect and how the team agreed on documentation standards."
+          },
+          "attemptedAt": "2026-09-30"
+        }
+      ],
+      "interviewStats": {
+        "totalAttempts": 3,
+        "averageScore": 86,
+        "technicalScore": 88,
+        "hrScore": 82,
+        "aptitudeScore": 85,
+        "accuracy": 86,
+        "topicMastery": [
+          {
+            "topic": "Distributed Systems & Consensus",
+            "attempts": 1,
+            "avgScore": 92
+          },
+          {
+            "topic": "System Design & Rate Limiting",
+            "attempts": 1,
+            "avgScore": 85
+          },
+          {
+            "topic": "Handling Conflict & Technical Disagreement",
+            "attempts": 1,
+            "avgScore": 82
+          }
+        ]
+      },
+      "placementReadiness": {
+        "overallScore": 85,
+        "breakdown": {
+          "skillProficiency": 78,
+          "projectQuality": 86,
+          "resumeStrength": 86,
+          "learningProgress": 84,
+          "interviewPerformance": 86,
+          "aptitudePerformance": 84,
+          "careerAlignment": 82
+        },
+        "status": "Well Prepared",
+        "strengths": [
+          "Deep systems engineering proof-of-work with evaluated 91/100 Raft consensus engine.",
+          "ATS-optimized resume matching 84% of Cloud & Infrastructure Engineer industry keywords.",
+          "Consistent daily learning streak (5 days) backed by 54+ verified practice hours.",
+          "Strong technical interview clarity demonstrated in distributed consensus mock rounds."
+        ],
+        "criticalGaps": [
+          "Kubernetes Custom Controller project is at 60% completion; finishing it closes top cloud requirements.",
+          "Aptitude problem-solving speed under timed constraints needs 2 more mock rounds.",
+          "Needs OpenTelemetry telemetry instrumentation in portfolio projects."
+        ],
+        "highestImpactNextActions": [
+          "Complete Milestone 3 of the Kubernetes Operator project and add it to your portfolio.",
+          "Run 1 timed Quantitative Aptitude practice session to test throughput calculation speed.",
+          "Submit internship applications to Google (Cloud Core) and Razorpay before the November deadline."
+        ],
+        "estimatedTimeframeToReady": "2 - 3 Weeks to Peak Placement Readiness"
+      },
+      "careerAlignment": {
+        "score": 82,
+        "targetRole": "Cloud & Infrastructure Engineer",
+        "targetRoleBenchmark": 85,
+        "strengths": [
+          "Deep understanding of state machine replication, consensus safety, and leader election protocols.",
+          "Hands-on experience with production containerization and asynchronous worker queues.",
+          "Rigorous engineering problem solving backed by evaluated academic repository proof-of-work."
+        ],
+        "skillGaps": [
+          {
+            "skill": "Kubernetes Pod & Ingress Orchestration",
+            "importance": "High",
+            "currentLevel": "Beginner",
+            "requiredLevel": "Intermediate",
+            "recommendation": "Complete practical labs deploying multi-container services with health checks and rolling upgrades."
+          },
+          {
+            "skill": "OpenTelemetry Distributed Tracing",
+            "importance": "High",
+            "currentLevel": "Beginner",
+            "requiredLevel": "Intermediate",
+            "recommendation": "Instrument context propagation and spans into your existing rate limiter and consensus engine."
+          },
+          {
+            "skill": "System Design Interview Synthesis",
+            "importance": "Medium",
+            "currentLevel": "Intermediate",
+            "requiredLevel": "Advanced",
+            "recommendation": "Practice structured 45-minute whiteboarding mock sessions covering back-of-the-envelope capacity planning."
+          }
+        ],
+        "actionsToImprove": [
+          "Complete the 4 topics in Milestone 4 (Kubernetes & Distributed Observability).",
+          "Add automated stress testing and Prometheus metrics scraping to your capstone project.",
+          "Dedicate 2 hours weekly to peer technical reviews and soft skill mock defense."
+        ],
+        "roleComparison": [
+          {
+            "metric": "Systems Programming & Algorithms",
+            "studentScore": 88,
+            "industryBaseline": 82
+          },
+          {
+            "metric": "Cloud Infrastructure & Containers",
+            "studentScore": 78,
+            "industryBaseline": 85
+          },
+          {
+            "metric": "System Architecture & Scalability",
+            "studentScore": 84,
+            "industryBaseline": 80
+          },
+          {
+            "metric": "Observability & Telemetry",
+            "studentScore": 68,
+            "industryBaseline": 80
+          },
+          {
+            "metric": "Technical Communication & Leadership",
+            "studentScore": 80,
+            "industryBaseline": 75
+          }
+        ]
+      },
+      "learningInsights": {
+        "fastestImprovingSkills": [
+          {
+            "name": "Distributed Consensus & Raft",
+            "growth": "+24% this month"
+          },
+          {
+            "name": "Docker & Containerization",
+            "growth": "+18% this month"
+          }
+        ],
+        "skillsNeedingAttention": [
+          {
+            "name": "Kubernetes Cluster Orchestration",
+            "reason": "Critical requirement for target role; currently at planned stage"
+          },
+          {
+            "name": "Technical System Writing & RFCs",
+            "reason": "Essential soft skill for infrastructure teams to document design trade-offs"
+          }
+        ],
+        "nextRecommendedSkill": {
+          "name": "OpenTelemetry Distributed Tracing",
+          "category": "Cloud & Observability",
+          "reason": "High priority for Cloud & Infrastructure Engineer positions to diagnose microservice latency bottlenecks in production.",
+          "targetMilestone": "Milestone 4: Cloud Orchestration & Observability"
+        },
+        "consistencyScore": 88,
+        "actionableSuggestions": [
+          "Spend 25 minutes daily solving concurrent programming problems to reinforce memory model understanding.",
+          "Document your Raft consensus design decisions as an architectural case study on GitHub to prove written technical communication.",
+          "Schedule a weekend deep dive into Kubernetes Pod lifecycle and manifest debugging before starting Milestone 4."
+        ],
+        "learningSummary": "Strong upward momentum in systems engineering fundamentals with 82% verified core proficiency. Prioritizing observability and container orchestration will elevate your profile directly to top-tier Cloud & Infrastructure Engineer requirements."
+      },
+      "notifications": [
+        {
+          "id": "notif-welcome",
+          "type": "copilot_recommendation",
+          "title": "Welcome to PathPilot Production",
+          "message": "Your persistent student data and credentials are securely connected to the backend database.",
+          "timestamp": "Just now",
+          "read": false,
+          "priority": "low",
+          "targetTab": "dashboard"
+        }
+      ],
+      "copilotChatHistory": [],
+      "weeklyReports": []
+    },
+    "student-1791191604979-2und7": {
+      "userId": "student-1791191604979-2und7",
+      "skills": [],
+      "detailedSkills": [],
+      "historicalScores": [],
+      "submissions": [],
+      "roadmapMilestones": [],
+      "learningRoadmap": [],
+      "learningGoals": [],
+      "streakData": {
+        "currentStreak": 0,
+        "longestStreak": 0,
+        "totalDays": 0,
+        "totalHours": 0,
+        "lastActiveDate": "",
+        "badges": [
+          {
+            "id": "badge-1",
+            "title": "5-Day Focus Streak",
+            "description": "Maintain study consistency across 5 consecutive active days.",
+            "icon": "Flame",
+            "achieved": false
+          },
+          {
+            "id": "badge-2",
+            "title": "First Milestone Mastered",
+            "description": "Complete all topics within any learning roadmap milestone.",
+            "icon": "CheckCircle",
+            "achieved": false
+          }
+        ]
+      },
+      "activitySessions": [],
+      "monthlyBudget": 8000,
+      "expenses": [],
+      "placementProjects": [],
+      "studentResume": {
+        "id": "resume-student-1791191604979-2und7",
+        "fullName": "Jordan Lee",
+        "email": "jordan.lee@test.edu",
+        "phone": "",
+        "location": "",
+        "targetRole": "Software Engineer",
+        "summary": "Undergraduate student in Computer Science and Engineering (3rd Year) pursuing technical depth and real-world project mastery.",
+        "education": [
+          {
+            "institution": "Institute of Engineering & Technology",
+            "degree": "Bachelor of Technology in Computer Science and Engineering",
+            "year": "3rd Year"
+          }
+        ],
+        "experience": [],
+        "projects": [],
+        "skills": {
+          "programming": [],
+          "frameworksAndTools": [],
+          "cloudAndDevOps": [],
+          "softSkills": []
+        },
+        "certifications": [],
+        "lastUpdated": "2026-10-05T09:13:25.097Z"
+      },
+      "resumeAnalysis": {
+        "overallScore": 50,
+        "roleMatchScore": 45,
+        "matchedKeywords": [],
+        "missingKeywords": [
+          "Version Control",
+          "Data Structures",
+          "REST APIs"
+        ],
+        "weakSections": [
+          {
+            "section": "Technical Skills & Projects",
+            "feedback": "No verified projects or skills logged yet.",
+            "recommendation": "Add your active programming languages in Learning Hub and evaluate your first project."
+          }
+        ],
+        "projectImprovements": [],
+        "actionableFixes": [
+          "Complete domain onboarding",
+          "Add your acquired skills in the Learning Hub",
+          "Add a verified project artifact to boost ATS score"
+        ],
+        "analyzedAt": "2026-10-05T09:13:25.097Z"
+      },
+      "resumeVersions": [],
+      "internships": [],
+      "interviewQuestions": [
+        {
+          "id": "q-tech-1",
+          "category": "Technical",
+          "topic": "Distributed Systems & Consensus",
+          "difficulty": "Advanced",
+          "question": "In the Raft consensus algorithm, how does a leader prevent split-brain anomalies when network partitions occur, and what happens when the partitioned network heals?",
+          "contextOrScenario": "Consider a 5-node cluster split into {Node 1, Node 2} and {Node 3, Node 4, Node 5}.",
+          "keyConceptsToCover": [
+            "Quorum requirement (majority: N/2 + 1)",
+            "Leader in minority partition cannot commit log entries",
+            "Term numbers and higher term overriding obsolete leader",
+            "Log reconciliation and AppendEntries rollback on reconnect"
+          ],
+          "sampleAnswerOutline": "In a 5-node cluster, a quorum requires at least 3 nodes. The minority partition {1, 2} cannot reach quorum, so client writes are acknowledged as uncommitted or rejected. Meanwhile, majority partition {3, 4, 5} elects a leader with a higher term and safely commits logs. When the partition heals, node 1 receives a heartbeat with a higher term, steps down to follower, and overwrites uncommitted logs with the authoritative leader log."
+        },
+        {
+          "id": "q-tech-2",
+          "category": "Technical",
+          "topic": "Concurrency & Go Goroutines",
+          "difficulty": "Intermediate",
+          "question": "Explain the difference between unbuffered and buffered channels in Go. How do you prevent goroutine leaks when communicating across worker pools?",
+          "keyConceptsToCover": [
+            "Unbuffered channel synchronization (rendezvous)",
+            "Buffered channel capacity and non-blocking until full",
+            "Context cancellation (context.WithCancel / WithTimeout)",
+            "Closing channels and select with default/timeout"
+          ],
+          "sampleAnswerOutline": "Unbuffered channels require both sender and receiver to be ready simultaneously, creating explicit synchronization. Buffered channels decouple timing until the buffer fills. Goroutine leaks occur when a sender or receiver blocks indefinitely on an unread channel. To prevent leaks, always pass a cancellable context, use select with ctx.Done(), and ensure worker pools have well-defined termination signals."
+        },
+        {
+          "id": "q-tech-3",
+          "category": "Technical",
+          "topic": "System Design & Rate Limiting",
+          "difficulty": "Intermediate",
+          "question": "Compare Token Bucket vs Sliding Window Counter rate limiting algorithms. Why is atomic execution (e.g., via Redis Lua) essential in distributed environments?",
+          "keyConceptsToCover": [
+            "Token bucket allows bursts with fixed refill rate",
+            "Sliding window prevents edge boundary traffic doubling",
+            "Race conditions in read-modify-write cycles across proxy instances",
+            "Atomic Lua execution eliminating distributed locking overhead"
+          ],
+          "sampleAnswerOutline": "Token bucket smoothly handles short bursts while enforcing a steady average. Fixed window counters suffer from edge boundary doubling (2x rate at boundary). Sliding window counter solves this by weighting historical intervals. In distributed setups, multiple proxy servers reading and then writing counters cause race conditions; Redis Lua scripts execute atomically on the single Redis thread, ensuring 100% accurate decrement without distributed mutex locks."
+        }
+      ],
+      "interviewAttempts": [],
+      "interviewStats": {
+        "totalAttempts": 0,
+        "averageScore": 0,
+        "technicalScore": 0,
+        "hrScore": 0,
+        "aptitudeScore": 0,
+        "accuracy": 0,
+        "topicMastery": []
+      },
+      "placementReadiness": {
+        "overallScore": 55,
+        "breakdown": {
+          "skillProficiency": 50,
+          "projectQuality": 50,
+          "resumeStrength": 65,
+          "learningProgress": 40,
+          "interviewPerformance": 50,
+          "aptitudePerformance": 60,
+          "careerAlignment": 50
+        },
+        "status": "Needs Targeted Practice",
+        "strengths": [
+          "Early enrollment and active roadmap initialization"
+        ],
+        "criticalGaps": [
+          "Complete first practical project artifact",
+          "Define domain specialization"
+        ],
+        "highestImpactNextActions": [
+          "Select your domain interest in Onboarding to calibrate your roadmap"
+        ],
+        "estimatedTimeframeToReady": "6 - 8 Weeks"
+      },
+      "careerAlignment": {
+        "score": 55,
+        "targetRole": "Software Engineer",
+        "targetRoleBenchmark": 85,
+        "strengths": [],
+        "skillGaps": [],
+        "actionsToImprove": [
+          "Complete domain focus selection",
+          "Add first verified skill"
+        ],
+        "roleComparison": []
+      },
+      "learningInsights": {
+        "fastestImprovingSkills": [],
+        "skillsNeedingAttention": [],
+        "nextRecommendedSkill": {
+          "name": "Core Algorithms & Data Structures",
+          "category": "DSA",
+          "reason": "Foundation requirement for placement readiness",
+          "targetMilestone": "Milestone 1"
+        },
+        "consistencyScore": 50,
+        "actionableSuggestions": [
+          "Log your first 25-minute practice session today."
+        ],
+        "learningSummary": "Welcome to PathPilot! Start by selecting your domain interest in onboarding."
+      },
+      "notifications": [
+        {
+          "id": "notif-1791191605098",
+          "type": "copilot_recommendation",
+          "title": "Welcome to PathPilot!",
+          "message": "Complete your domain onboarding to unlock personalized roadmap milestones, AI project recommendations, and ATS resume scanning.",
+          "timestamp": "Just now",
+          "read": false,
+          "priority": "high",
+          "targetTab": "dashboard"
+        }
+      ],
+      "copilotChatHistory": [],
+      "weeklyReports": []
+    },
+    "student-1791191613340-wg74v": {
+      "userId": "student-1791191613340-wg74v",
+      "skills": [],
+      "detailedSkills": [],
+      "historicalScores": [],
+      "submissions": [],
+      "roadmapMilestones": [],
+      "learningRoadmap": [],
+      "learningGoals": [],
+      "streakData": {
+        "currentStreak": 0,
+        "longestStreak": 0,
+        "totalDays": 0,
+        "totalHours": 0,
+        "lastActiveDate": "",
+        "badges": [
+          {
+            "id": "badge-1",
+            "title": "5-Day Focus Streak",
+            "description": "Maintain study consistency across 5 consecutive active days.",
+            "icon": "Flame",
+            "achieved": false
+          },
+          {
+            "id": "badge-2",
+            "title": "First Milestone Mastered",
+            "description": "Complete all topics within any learning roadmap milestone.",
+            "icon": "CheckCircle",
+            "achieved": false
+          }
+        ]
+      },
+      "activitySessions": [],
+      "monthlyBudget": 8000,
+      "expenses": [],
+      "placementProjects": [],
+      "studentResume": {
+        "id": "resume-student-1791191613340-wg74v",
+        "fullName": "Jordan Lee",
+        "email": "test.student.1791191613231@university.edu",
+        "phone": "",
+        "location": "",
+        "targetRole": "Software Engineer",
+        "summary": "Undergraduate student in Computer Science and Engineering (3rd Year) pursuing technical depth and real-world project mastery.",
+        "education": [
+          {
+            "institution": "Institute of Engineering & Technology",
+            "degree": "Bachelor of Technology in Computer Science and Engineering",
+            "year": "3rd Year"
+          }
+        ],
+        "experience": [],
+        "projects": [],
+        "skills": {
+          "programming": [],
+          "frameworksAndTools": [],
+          "cloudAndDevOps": [],
+          "softSkills": []
+        },
+        "certifications": [],
+        "lastUpdated": "2026-10-05T09:13:33.459Z"
+      },
+      "resumeAnalysis": {
+        "overallScore": 50,
+        "roleMatchScore": 45,
+        "matchedKeywords": [],
+        "missingKeywords": [
+          "Version Control",
+          "Data Structures",
+          "REST APIs"
+        ],
+        "weakSections": [
+          {
+            "section": "Technical Skills & Projects",
+            "feedback": "No verified projects or skills logged yet.",
+            "recommendation": "Add your active programming languages in Learning Hub and evaluate your first project."
+          }
+        ],
+        "projectImprovements": [],
+        "actionableFixes": [
+          "Complete domain onboarding",
+          "Add your acquired skills in the Learning Hub",
+          "Add a verified project artifact to boost ATS score"
+        ],
+        "analyzedAt": "2026-10-05T09:13:33.459Z"
+      },
+      "resumeVersions": [],
+      "internships": [],
+      "interviewQuestions": [
+        {
+          "id": "q-tech-1",
+          "category": "Technical",
+          "topic": "Distributed Systems & Consensus",
+          "difficulty": "Advanced",
+          "question": "In the Raft consensus algorithm, how does a leader prevent split-brain anomalies when network partitions occur, and what happens when the partitioned network heals?",
+          "contextOrScenario": "Consider a 5-node cluster split into {Node 1, Node 2} and {Node 3, Node 4, Node 5}.",
+          "keyConceptsToCover": [
+            "Quorum requirement (majority: N/2 + 1)",
+            "Leader in minority partition cannot commit log entries",
+            "Term numbers and higher term overriding obsolete leader",
+            "Log reconciliation and AppendEntries rollback on reconnect"
+          ],
+          "sampleAnswerOutline": "In a 5-node cluster, a quorum requires at least 3 nodes. The minority partition {1, 2} cannot reach quorum, so client writes are acknowledged as uncommitted or rejected. Meanwhile, majority partition {3, 4, 5} elects a leader with a higher term and safely commits logs. When the partition heals, node 1 receives a heartbeat with a higher term, steps down to follower, and overwrites uncommitted logs with the authoritative leader log."
+        },
+        {
+          "id": "q-tech-2",
+          "category": "Technical",
+          "topic": "Concurrency & Go Goroutines",
+          "difficulty": "Intermediate",
+          "question": "Explain the difference between unbuffered and buffered channels in Go. How do you prevent goroutine leaks when communicating across worker pools?",
+          "keyConceptsToCover": [
+            "Unbuffered channel synchronization (rendezvous)",
+            "Buffered channel capacity and non-blocking until full",
+            "Context cancellation (context.WithCancel / WithTimeout)",
+            "Closing channels and select with default/timeout"
+          ],
+          "sampleAnswerOutline": "Unbuffered channels require both sender and receiver to be ready simultaneously, creating explicit synchronization. Buffered channels decouple timing until the buffer fills. Goroutine leaks occur when a sender or receiver blocks indefinitely on an unread channel. To prevent leaks, always pass a cancellable context, use select with ctx.Done(), and ensure worker pools have well-defined termination signals."
+        },
+        {
+          "id": "q-tech-3",
+          "category": "Technical",
+          "topic": "System Design & Rate Limiting",
+          "difficulty": "Intermediate",
+          "question": "Compare Token Bucket vs Sliding Window Counter rate limiting algorithms. Why is atomic execution (e.g., via Redis Lua) essential in distributed environments?",
+          "keyConceptsToCover": [
+            "Token bucket allows bursts with fixed refill rate",
+            "Sliding window prevents edge boundary traffic doubling",
+            "Race conditions in read-modify-write cycles across proxy instances",
+            "Atomic Lua execution eliminating distributed locking overhead"
+          ],
+          "sampleAnswerOutline": "Token bucket smoothly handles short bursts while enforcing a steady average. Fixed window counters suffer from edge boundary doubling (2x rate at boundary). Sliding window counter solves this by weighting historical intervals. In distributed setups, multiple proxy servers reading and then writing counters cause race conditions; Redis Lua scripts execute atomically on the single Redis thread, ensuring 100% accurate decrement without distributed mutex locks."
+        }
+      ],
+      "interviewAttempts": [],
+      "interviewStats": {
+        "totalAttempts": 0,
+        "averageScore": 0,
+        "technicalScore": 0,
+        "hrScore": 0,
+        "aptitudeScore": 0,
+        "accuracy": 0,
+        "topicMastery": []
+      },
+      "placementReadiness": {
+        "overallScore": 55,
+        "breakdown": {
+          "skillProficiency": 50,
+          "projectQuality": 50,
+          "resumeStrength": 65,
+          "learningProgress": 40,
+          "interviewPerformance": 50,
+          "aptitudePerformance": 60,
+          "careerAlignment": 50
+        },
+        "status": "Needs Targeted Practice",
+        "strengths": [
+          "Early enrollment and active roadmap initialization"
+        ],
+        "criticalGaps": [
+          "Complete first practical project artifact",
+          "Define domain specialization"
+        ],
+        "highestImpactNextActions": [
+          "Select your domain interest in Onboarding to calibrate your roadmap"
+        ],
+        "estimatedTimeframeToReady": "6 - 8 Weeks"
+      },
+      "careerAlignment": {
+        "score": 55,
+        "targetRole": "Software Engineer",
+        "targetRoleBenchmark": 85,
+        "strengths": [],
+        "skillGaps": [],
+        "actionsToImprove": [
+          "Complete domain focus selection",
+          "Add first verified skill"
+        ],
+        "roleComparison": []
+      },
+      "learningInsights": {
+        "fastestImprovingSkills": [],
+        "skillsNeedingAttention": [],
+        "nextRecommendedSkill": {
+          "name": "Core Algorithms & Data Structures",
+          "category": "DSA",
+          "reason": "Foundation requirement for placement readiness",
+          "targetMilestone": "Milestone 1"
+        },
+        "consistencyScore": 50,
+        "actionableSuggestions": [
+          "Log your first 25-minute practice session today."
+        ],
+        "learningSummary": "Welcome to PathPilot! Start by selecting your domain interest in onboarding."
+      },
+      "notifications": [
+        {
+          "id": "notif-1791191613459",
+          "type": "copilot_recommendation",
+          "title": "Welcome to PathPilot!",
+          "message": "Complete your domain onboarding to unlock personalized roadmap milestones, AI project recommendations, and ATS resume scanning.",
+          "timestamp": "Just now",
+          "read": false,
+          "priority": "high",
+          "targetTab": "dashboard"
+        }
+      ],
+      "copilotChatHistory": [],
+      "weeklyReports": []
+    },
+    "student-1791191632658-5a6p6": {
+      "userId": "student-1791191632658-5a6p6",
+      "skills": [],
+      "detailedSkills": [
+        {
+          "id": "skill-1791191632789",
+          "name": "Kubernetes",
+          "type": "Technical",
+          "category": "Cloud Infrastructure",
+          "level": "Intermediate",
+          "progress": 65,
+          "hoursSpent": 40,
+          "resourcesCount": 5,
+          "lastPracticed": "2026-10-05T09:13:52.789Z"
+        }
+      ],
+      "historicalScores": [],
+      "submissions": [],
+      "roadmapMilestones": [],
+      "learningRoadmap": [],
+      "learningGoals": [],
+      "streakData": {
+        "currentStreak": 0,
+        "longestStreak": 0,
+        "totalDays": 0,
+        "totalHours": 0,
+        "lastActiveDate": "",
+        "badges": [
+          {
+            "id": "badge-1",
+            "title": "5-Day Focus Streak",
+            "description": "Maintain study consistency across 5 consecutive active days.",
+            "icon": "Flame",
+            "achieved": false
+          },
+          {
+            "id": "badge-2",
+            "title": "First Milestone Mastered",
+            "description": "Complete all topics within any learning roadmap milestone.",
+            "icon": "CheckCircle",
+            "achieved": false
+          }
+        ]
+      },
+      "activitySessions": [],
+      "monthlyBudget": 8000,
+      "expenses": [
+        {
+          "amount": 250,
+          "category": "Course / Book",
+          "reason": "Distributed Systems Textbook & Cloud Lab Subscription",
+          "date": "2026-10-05T09:13:52.802Z"
+        }
+      ],
+      "placementProjects": [],
+      "studentResume": {
+        "id": "resume-student-1791191632658-5a6p6-1791191636037",
+        "fullName": "Jordan Lee",
+        "email": "test.student.1791191632548@university.edu",
+        "phone": "",
+        "location": "",
+        "targetRole": "Cloud & Infrastructure Engineer",
+        "summary": "Dedicated undergraduate student in Computer Science and Engineering (3rd Year) pursuing Cloud & Infrastructure Engineer opportunities. Hands-on experience building scalable applications with proven focus on Kubernetes.",
+        "education": [
+          {
+            "institution": "Institute of Engineering & Technology",
+            "degree": "Bachelor of Technology in Computer Science and Engineering",
+            "year": "3rd Year"
+          }
+        ],
+        "skills": {
+          "programming": [],
+          "frameworksAndTools": [],
+          "cloudAndDevOps": [
+            "Kubernetes"
+          ],
+          "softSkills": [
+            "Problem Solving",
+            "Technical Documentation",
+            "System Design Whiteboarding"
+          ]
+        },
+        "projects": [],
+        "experience": [],
+        "certifications": [],
+        "lastUpdated": "2026-10-05T09:13:56.057Z"
+      },
+      "resumeAnalysis": {
+        "overallScore": 45,
+        "roleMatchScore": 40,
+        "matchedKeywords": [
+          "Kubernetes"
+        ],
+        "missingKeywords": [
+          "Docker",
+          "Linux",
+          "Go",
+          "Python",
+          "Redis",
+          "CI/CD",
+          "Git",
+          "Distributed Systems",
+          "gRPC",
+          "PostgreSQL",
+          "Microservices",
+          "System Design"
+        ],
+        "weakSections": [
+          {
+            "section": "Header & Contact Info",
+            "feedback": "Contact information is missing phone number or GitHub profile link.",
+            "recommendation": "Complete your direct phone and code repository links for hiring managers."
+          },
+          {
+            "section": "Verified Technical Projects",
+            "feedback": "Having fewer than two verified projects limits ATS keyword density and proof-of-work.",
+            "recommendation": "Evaluate or complete an additional technical project in PathPilot."
+          },
+          {
+            "section": "Target Role Alignment",
+            "feedback": "Missing 12 core keywords typical for Cloud & Infrastructure Engineer job descriptions.",
+            "recommendation": "Target Docker, Linux, Go in your next study blocks."
+          }
+        ],
+        "projectImprovements": [],
+        "actionableFixes": [
+          "Add Docker and Linux to your learning roadmap.",
+          "Add your direct contact phone number.",
+          "Connect your public GitHub repository link.",
+          "Complete your second placement project milestone."
+        ],
+        "analyzedAt": "2026-10-05T09:13:56.037Z"
+      },
+      "resumeVersions": [
+        {
+          "id": "ver-1791191636045-wikf2",
+          "versionNumber": 1,
+          "title": "v1.0 Cloud Engineer AI Generated",
+          "targetRole": "Cloud & Infrastructure Engineer",
+          "resume": {
+            "id": "resume-student-1791191632658-5a6p6-1791191636037",
+            "fullName": "Jordan Lee",
+            "email": "test.student.1791191632548@university.edu",
+            "phone": "",
+            "location": "",
+            "targetRole": "Cloud & Infrastructure Engineer",
+            "summary": "Dedicated undergraduate student in Computer Science and Engineering (3rd Year) pursuing Cloud & Infrastructure Engineer opportunities. Hands-on experience building scalable applications with proven focus on Kubernetes.",
+            "education": [
+              {
+                "institution": "Institute of Engineering & Technology",
+                "degree": "Bachelor of Technology in Computer Science and Engineering",
+                "year": "3rd Year"
+              }
+            ],
+            "skills": {
+              "programming": [],
+              "frameworksAndTools": [],
+              "cloudAndDevOps": [
+                "Kubernetes"
+              ],
+              "softSkills": [
+                "Problem Solving",
+                "Technical Documentation",
+                "System Design Whiteboarding"
+              ]
+            },
+            "projects": [],
+            "experience": [],
+            "certifications": [],
+            "lastUpdated": "2026-10-05T09:13:56.045Z"
+          },
+          "analysis": {
+            "overallScore": 45,
+            "roleMatchScore": 40,
+            "matchedKeywords": [
+              "Kubernetes"
+            ],
+            "missingKeywords": [
+              "Docker",
+              "Linux",
+              "Go",
+              "Python",
+              "Redis",
+              "CI/CD",
+              "Git",
+              "Distributed Systems",
+              "gRPC",
+              "PostgreSQL",
+              "Microservices",
+              "System Design"
+            ],
+            "weakSections": [
+              {
+                "section": "Header & Contact Info",
+                "feedback": "Contact information is missing phone number or GitHub profile link.",
+                "recommendation": "Complete your direct phone and code repository links for hiring managers."
+              },
+              {
+                "section": "Verified Technical Projects",
+                "feedback": "Having fewer than two verified projects limits ATS keyword density and proof-of-work.",
+                "recommendation": "Evaluate or complete an additional technical project in PathPilot."
+              },
+              {
+                "section": "Target Role Alignment",
+                "feedback": "Missing 12 core keywords typical for Cloud & Infrastructure Engineer job descriptions.",
+                "recommendation": "Target Docker, Linux, Go in your next study blocks."
+              }
+            ],
+            "projectImprovements": [],
+            "actionableFixes": [
+              "Add Docker and Linux to your learning roadmap.",
+              "Add your direct contact phone number.",
+              "Connect your public GitHub repository link.",
+              "Complete your second placement project milestone."
+            ],
+            "analyzedAt": "2026-10-05T09:13:56.037Z"
+          },
+          "createdAt": "2026-10-05T09:13:56.045Z",
+          "source": "manual_edit",
+          "notes": "Initial automated ATS generation for Cloud & Infrastructure Engineer"
+        }
+      ],
+      "internships": [],
+      "interviewQuestions": [
+        {
+          "id": "q-tech-1",
+          "category": "Technical",
+          "topic": "Distributed Systems & Consensus",
+          "difficulty": "Advanced",
+          "question": "In the Raft consensus algorithm, how does a leader prevent split-brain anomalies when network partitions occur, and what happens when the partitioned network heals?",
+          "contextOrScenario": "Consider a 5-node cluster split into {Node 1, Node 2} and {Node 3, Node 4, Node 5}.",
+          "keyConceptsToCover": [
+            "Quorum requirement (majority: N/2 + 1)",
+            "Leader in minority partition cannot commit log entries",
+            "Term numbers and higher term overriding obsolete leader",
+            "Log reconciliation and AppendEntries rollback on reconnect"
+          ],
+          "sampleAnswerOutline": "In a 5-node cluster, a quorum requires at least 3 nodes. The minority partition {1, 2} cannot reach quorum, so client writes are acknowledged as uncommitted or rejected. Meanwhile, majority partition {3, 4, 5} elects a leader with a higher term and safely commits logs. When the partition heals, node 1 receives a heartbeat with a higher term, steps down to follower, and overwrites uncommitted logs with the authoritative leader log."
+        },
+        {
+          "id": "q-tech-2",
+          "category": "Technical",
+          "topic": "Concurrency & Go Goroutines",
+          "difficulty": "Intermediate",
+          "question": "Explain the difference between unbuffered and buffered channels in Go. How do you prevent goroutine leaks when communicating across worker pools?",
+          "keyConceptsToCover": [
+            "Unbuffered channel synchronization (rendezvous)",
+            "Buffered channel capacity and non-blocking until full",
+            "Context cancellation (context.WithCancel / WithTimeout)",
+            "Closing channels and select with default/timeout"
+          ],
+          "sampleAnswerOutline": "Unbuffered channels require both sender and receiver to be ready simultaneously, creating explicit synchronization. Buffered channels decouple timing until the buffer fills. Goroutine leaks occur when a sender or receiver blocks indefinitely on an unread channel. To prevent leaks, always pass a cancellable context, use select with ctx.Done(), and ensure worker pools have well-defined termination signals."
+        },
+        {
+          "id": "q-tech-3",
+          "category": "Technical",
+          "topic": "System Design & Rate Limiting",
+          "difficulty": "Intermediate",
+          "question": "Compare Token Bucket vs Sliding Window Counter rate limiting algorithms. Why is atomic execution (e.g., via Redis Lua) essential in distributed environments?",
+          "keyConceptsToCover": [
+            "Token bucket allows bursts with fixed refill rate",
+            "Sliding window prevents edge boundary traffic doubling",
+            "Race conditions in read-modify-write cycles across proxy instances",
+            "Atomic Lua execution eliminating distributed locking overhead"
+          ],
+          "sampleAnswerOutline": "Token bucket smoothly handles short bursts while enforcing a steady average. Fixed window counters suffer from edge boundary doubling (2x rate at boundary). Sliding window counter solves this by weighting historical intervals. In distributed setups, multiple proxy servers reading and then writing counters cause race conditions; Redis Lua scripts execute atomically on the single Redis thread, ensuring 100% accurate decrement without distributed mutex locks."
+        }
+      ],
+      "interviewAttempts": [],
+      "interviewStats": {
+        "totalAttempts": 0,
+        "averageScore": 0,
+        "technicalScore": 0,
+        "hrScore": 0,
+        "aptitudeScore": 0,
+        "accuracy": 0,
+        "topicMastery": []
+      },
+      "placementReadiness": {
+        "overallScore": 49,
+        "breakdown": {
+          "skillProficiency": 50,
+          "projectQuality": 50,
+          "resumeStrength": 45,
+          "learningProgress": 40,
+          "interviewPerformance": 50,
+          "aptitudePerformance": 60,
+          "careerAlignment": 50
+        },
+        "status": "Needs Targeted Practice",
+        "strengths": [
+          "Early enrollment and active roadmap initialization"
+        ],
+        "criticalGaps": [
+          "Complete first practical project artifact",
+          "Define domain specialization"
+        ],
+        "highestImpactNextActions": [
+          "Select your domain interest in Onboarding to calibrate your roadmap"
+        ],
+        "estimatedTimeframeToReady": "6 - 8 Weeks"
+      },
+      "careerAlignment": {
+        "score": 55,
+        "targetRole": "Cloud & Infrastructure Engineer",
+        "targetRoleBenchmark": 85,
+        "strengths": [],
+        "skillGaps": [],
+        "actionsToImprove": [
+          "Complete domain focus selection",
+          "Add first verified skill"
+        ],
+        "roleComparison": []
+      },
+      "learningInsights": {
+        "fastestImprovingSkills": [],
+        "skillsNeedingAttention": [],
+        "nextRecommendedSkill": {
+          "name": "Core Algorithms & Data Structures",
+          "category": "DSA",
+          "reason": "Foundation requirement for placement readiness",
+          "targetMilestone": "Milestone 1"
+        },
+        "consistencyScore": 50,
+        "actionableSuggestions": [
+          "Log your first 25-minute practice session today."
+        ],
+        "learningSummary": "Welcome to PathPilot! Start by selecting your domain interest in onboarding."
+      },
+      "notifications": [
+        {
+          "id": "notif-1791191632767",
+          "type": "copilot_recommendation",
+          "title": "Welcome to PathPilot!",
+          "message": "Complete your domain onboarding to unlock personalized roadmap milestones, AI project recommendations, and ATS resume scanning.",
+          "timestamp": "Just now",
+          "read": false,
+          "priority": "high",
+          "targetTab": "dashboard"
+        }
+      ],
+      "copilotChatHistory": [],
+      "weeklyReports": []
+    },
+    "student-1791192192687-diwz7": {
+      "userId": "student-1791192192687-diwz7",
+      "skills": [],
+      "detailedSkills": [],
+      "historicalScores": [],
+      "submissions": [],
+      "roadmapMilestones": [],
+      "learningRoadmap": [],
+      "learningGoals": [],
+      "streakData": {
+        "currentStreak": 0,
+        "longestStreak": 0,
+        "totalDays": 0,
+        "totalHours": 0,
+        "lastActiveDate": "",
+        "badges": [
+          {
+            "id": "badge-1",
+            "title": "5-Day Focus Streak",
+            "description": "Maintain study consistency across 5 consecutive active days.",
+            "icon": "Flame",
+            "achieved": false
+          },
+          {
+            "id": "badge-2",
+            "title": "First Milestone Mastered",
+            "description": "Complete all topics within any learning roadmap milestone.",
+            "icon": "CheckCircle",
+            "achieved": false
+          }
+        ]
+      },
+      "activitySessions": [],
+      "monthlyBudget": 8000,
+      "expenses": [],
+      "placementProjects": [],
+      "studentResume": {
+        "id": "resume-student-1791192192687-diwz7",
+        "fullName": "Alex Deploy",
+        "email": "deploy.1791192192550@university.edu",
+        "phone": "",
+        "location": "",
+        "targetRole": "Software Engineer",
+        "summary": "Undergraduate student in Computer Science and Engineering (3rd Year) pursuing technical depth and real-world project mastery.",
+        "education": [
+          {
+            "institution": "Institute of Engineering & Technology",
+            "degree": "Bachelor of Technology in Computer Science and Engineering",
+            "year": "3rd Year"
+          }
+        ],
+        "experience": [],
+        "projects": [],
+        "skills": {
+          "programming": [],
+          "frameworksAndTools": [],
+          "cloudAndDevOps": [],
+          "softSkills": []
+        },
+        "certifications": [],
+        "lastUpdated": "2026-10-05T09:23:12.818Z"
+      },
+      "resumeAnalysis": {
+        "overallScore": 50,
+        "roleMatchScore": 45,
+        "matchedKeywords": [],
+        "missingKeywords": [
+          "Version Control",
+          "Data Structures",
+          "REST APIs"
+        ],
+        "weakSections": [
+          {
+            "section": "Technical Skills & Projects",
+            "feedback": "No verified projects or skills logged yet.",
+            "recommendation": "Add your active programming languages in Learning Hub and evaluate your first project."
+          }
+        ],
+        "projectImprovements": [],
+        "actionableFixes": [
+          "Complete domain onboarding",
+          "Add your acquired skills in the Learning Hub",
+          "Add a verified project artifact to boost ATS score"
+        ],
+        "analyzedAt": "2026-10-05T09:23:12.818Z"
+      },
+      "resumeVersions": [],
+      "internships": [],
+      "interviewQuestions": [
+        {
+          "id": "q-tech-1",
+          "category": "Technical",
+          "topic": "Distributed Systems & Consensus",
+          "difficulty": "Advanced",
+          "question": "In the Raft consensus algorithm, how does a leader prevent split-brain anomalies when network partitions occur, and what happens when the partitioned network heals?",
+          "contextOrScenario": "Consider a 5-node cluster split into {Node 1, Node 2} and {Node 3, Node 4, Node 5}.",
+          "keyConceptsToCover": [
+            "Quorum requirement (majority: N/2 + 1)",
+            "Leader in minority partition cannot commit log entries",
+            "Term numbers and higher term overriding obsolete leader",
+            "Log reconciliation and AppendEntries rollback on reconnect"
+          ],
+          "sampleAnswerOutline": "In a 5-node cluster, a quorum requires at least 3 nodes. The minority partition {1, 2} cannot reach quorum, so client writes are acknowledged as uncommitted or rejected. Meanwhile, majority partition {3, 4, 5} elects a leader with a higher term and safely commits logs. When the partition heals, node 1 receives a heartbeat with a higher term, steps down to follower, and overwrites uncommitted logs with the authoritative leader log."
+        },
+        {
+          "id": "q-tech-2",
+          "category": "Technical",
+          "topic": "Concurrency & Go Goroutines",
+          "difficulty": "Intermediate",
+          "question": "Explain the difference between unbuffered and buffered channels in Go. How do you prevent goroutine leaks when communicating across worker pools?",
+          "keyConceptsToCover": [
+            "Unbuffered channel synchronization (rendezvous)",
+            "Buffered channel capacity and non-blocking until full",
+            "Context cancellation (context.WithCancel / WithTimeout)",
+            "Closing channels and select with default/timeout"
+          ],
+          "sampleAnswerOutline": "Unbuffered channels require both sender and receiver to be ready simultaneously, creating explicit synchronization. Buffered channels decouple timing until the buffer fills. Goroutine leaks occur when a sender or receiver blocks indefinitely on an unread channel. To prevent leaks, always pass a cancellable context, use select with ctx.Done(), and ensure worker pools have well-defined termination signals."
+        },
+        {
+          "id": "q-tech-3",
+          "category": "Technical",
+          "topic": "System Design & Rate Limiting",
+          "difficulty": "Intermediate",
+          "question": "Compare Token Bucket vs Sliding Window Counter rate limiting algorithms. Why is atomic execution (e.g., via Redis Lua) essential in distributed environments?",
+          "keyConceptsToCover": [
+            "Token bucket allows bursts with fixed refill rate",
+            "Sliding window prevents edge boundary traffic doubling",
+            "Race conditions in read-modify-write cycles across proxy instances",
+            "Atomic Lua execution eliminating distributed locking overhead"
+          ],
+          "sampleAnswerOutline": "Token bucket smoothly handles short bursts while enforcing a steady average. Fixed window counters suffer from edge boundary doubling (2x rate at boundary). Sliding window counter solves this by weighting historical intervals. In distributed setups, multiple proxy servers reading and then writing counters cause race conditions; Redis Lua scripts execute atomically on the single Redis thread, ensuring 100% accurate decrement without distributed mutex locks."
+        }
+      ],
+      "interviewAttempts": [],
+      "interviewStats": {
+        "totalAttempts": 0,
+        "averageScore": 0,
+        "technicalScore": 0,
+        "hrScore": 0,
+        "aptitudeScore": 0,
+        "accuracy": 0,
+        "topicMastery": []
+      },
+      "placementReadiness": {
+        "overallScore": 55,
+        "breakdown": {
+          "skillProficiency": 50,
+          "projectQuality": 50,
+          "resumeStrength": 65,
+          "learningProgress": 40,
+          "interviewPerformance": 50,
+          "aptitudePerformance": 60,
+          "careerAlignment": 50
+        },
+        "status": "Needs Targeted Practice",
+        "strengths": [
+          "Early enrollment and active roadmap initialization"
+        ],
+        "criticalGaps": [
+          "Complete first practical project artifact",
+          "Define domain specialization"
+        ],
+        "highestImpactNextActions": [
+          "Select your domain interest in Onboarding to calibrate your roadmap"
+        ],
+        "estimatedTimeframeToReady": "6 - 8 Weeks"
+      },
+      "careerAlignment": {
+        "score": 55,
+        "targetRole": "Software Engineer",
+        "targetRoleBenchmark": 85,
+        "strengths": [],
+        "skillGaps": [],
+        "actionsToImprove": [
+          "Complete domain focus selection",
+          "Add first verified skill"
+        ],
+        "roleComparison": []
+      },
+      "learningInsights": {
+        "fastestImprovingSkills": [],
+        "skillsNeedingAttention": [],
+        "nextRecommendedSkill": {
+          "name": "Core Algorithms & Data Structures",
+          "category": "DSA",
+          "reason": "Foundation requirement for placement readiness",
+          "targetMilestone": "Milestone 1"
+        },
+        "consistencyScore": 50,
+        "actionableSuggestions": [
+          "Log your first 25-minute practice session today."
+        ],
+        "learningSummary": "Welcome to PathPilot! Start by selecting your domain interest in onboarding."
+      },
+      "notifications": [
+        {
+          "id": "notif-1791192192819",
+          "type": "copilot_recommendation",
+          "title": "Welcome to PathPilot!",
+          "message": "Complete your domain onboarding to unlock personalized roadmap milestones, AI project recommendations, and ATS resume scanning.",
+          "timestamp": "Just now",
+          "read": false,
+          "priority": "high",
+          "targetTab": "dashboard"
+        }
+      ],
+      "copilotChatHistory": [],
+      "weeklyReports": []
+    }
+  }
+}

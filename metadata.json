@@ -1,0 +1,6 @@
+{
+  "name": "PathPilot",
+  "description": "Intelligent academic and career development platform guiding students with personalized domain roadmaps, AI project recommendations, and actionable skill evaluations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
