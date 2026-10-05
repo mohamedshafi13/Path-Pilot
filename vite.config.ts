@@ -5,7 +5,7 @@ import path from 'path';
 
 export default defineConfig(() => {
   return {
-    base: '/Path-Pilot/',
+    base: '/Path-Pilot1/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
