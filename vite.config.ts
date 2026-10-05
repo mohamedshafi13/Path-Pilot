@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/Path-Pilot1/',
+    base: '/Path-Pilot/',
 
     plugins: [react(), tailwindcss()],
 
